@@ -58,13 +58,8 @@ Professional resume detailing my:
 ### Professional Experience
 
 **Founder & Builder** @ ReliefSense (Jan 2025 - Present)
-- **Problem:** Food security shouldn't depend on stable internet - building offline-first agriculture platform for refugee camps, disaster relief zones, and low-connectivity communities
-- **Architecture:** Offline-first with sync capability, runs on Raspberry Pi hardware for affordable field deployment
-- **Features:** Real-time dashboards for crop health, water usage, and resource planning; IoT-ready integration for environmental sensors (temperature, humidity, CO₂)
-- **Accessibility:** Multi-language support (English, Arabic, Turkish) with right-to-left (RTL) layout
-- **Impact:** Showcasing how resilient technology can empower communities facing food security challenges in unreliable connectivity environments
-- **Tech Stack:** React, Flask, SQLite, Vite, TailwindCSS
-- **Live Demo (Public Showcase):** https://ahmetmikailbayindir.github.io/ReliefSense/
+- Building offline-first humanitarian agriculture platform for low-connectivity environments
+- Tech: React, Flask, SQLite, Raspberry Pi | **[→ See full project details](#reliefsense---humanitarian-agriculture-platform-)**
 
 **IT Support Specialist** @ Ottawa Immigrant Services Organization (2023-2024)
 - Managed multi-OS environments (Windows, macOS, Linux)

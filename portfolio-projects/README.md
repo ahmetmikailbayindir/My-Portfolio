@@ -265,31 +265,6 @@ Unlike typical students, I bring:
 
 ---
 
-## 🌟 Personal Projects (Beyond Coursework)
-
-### ReliefSense - IoT Agriculture Dashboard (2024)
-**A full-stack web application I built from scratch**
-
-**Technologies**: React, TypeScript, Python Flask, WebSockets
-
-**What it does**:
-- Real-time monitoring dashboard for agricultural sensors (temperature, humidity, CO₂)
-- Live updates via WebSockets - see data change in real-time
-- Multi-language support for accessibility
-- Mobile-first responsive design
-
-**Why I built it**: Wanted to combine my web development background with humanitarian technology. This project demonstrates I can build complete applications, not just configure existing systems.
-
-**Skills demonstrated**:
-- Full-stack development (frontend + backend)
-- Real-time data handling
-- Secure authentication implementation
-- User-centered design
-
-🔗 [View ReliefSense Project](https://github.com/ahmetmikailbayindir) *(Add your actual project link)*
-
----
-
 ## 🛠️ Technical Skills Summary
 
 ### Operating Systems
