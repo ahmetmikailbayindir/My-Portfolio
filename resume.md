@@ -32,16 +32,16 @@ Algonquin College, Ottawa, ON | May 2024 - Present
 ### Founder & Builder - ReliefSense Platform
 **ReliefSense** (Self-employed) | Ottawa, ON (Hybrid) | Jan. 2025 - Present
 
-**Main Task:** Founded and built ReliefSense, a humanitarian agriculture platform created to support refugee camps, disaster relief zones, and resource-constrained communities.
+**Main Task:** Founded and built ReliefSense, an offline-first humanitarian agriculture platform addressing a critical gap: food security shouldn't depend on stable internet. Created for refugee camps, disaster relief zones, and low-connectivity communities where internet access is unreliable but resource management can't wait.
 
 **Key Achievements:**
-- Designed the system to run on Raspberry Pi hardware for affordable, field-ready deployment
-- Implemented multi-language and right-to-left (RTL) support for global accessibility (English, Arabic, Turkish)
-- Built real-time dashboards for monitoring crop health, water usage, and resource planning
-- Developed using React, Flask, SQLite, Vite, and TailwindCSS with an offline-first architecture for low-connectivity environments
-- Released a public showcase version hosted on GitHub Pages to demonstrate the platform's vision and impact
-- Highlights how resilient technology can empower communities facing food security challenges
-- **Live Demo**: https://ahmetmikailbayindir.github.io/ReliefSense/
+- Architected offline-first platform with automatic sync capability when connectivity returns, ensuring continuous operation in unreliable network environments
+- Built real-time dashboards for crop health monitoring, water usage tracking, and resource planning with IoT-ready integration for environmental sensors (temperature, humidity, CO₂)
+- Designed system to run on Raspberry Pi hardware for affordable, field-ready deployment in resource-constrained settings
+- Implemented multi-language support (English, Arabic, Turkish) with right-to-left (RTL) layout for global accessibility
+- Developed using React, Flask, SQLite, Vite, and TailwindCSS for resilient, production-ready architecture
+- Released public showcase version on GitHub Pages demonstrating how resilient technology empowers communities facing food security challenges
+- **Live Demo (Public Showcase)**: https://ahmetmikailbayindir.github.io/ReliefSense/
 
 ### IT Support Specialist
 **Ottawa Immigrant Services Organization (OISO)** | Ottawa, ON | Feb. 2023 - Jan. 2024

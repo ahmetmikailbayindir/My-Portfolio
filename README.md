@@ -58,12 +58,13 @@ Professional resume detailing my:
 ### Professional Experience
 
 **Founder & Builder** @ ReliefSense (Jan 2025 - Present)
-- Building humanitarian agriculture platform for refugee camps and disaster relief zones
-- Offline-first architecture running on Raspberry Pi for affordable field deployment
-- Multi-language support (English, Arabic, Turkish) with RTL layout
-- Real-time dashboards for crop health, water usage, and resource planning
-- Tech stack: React, Flask, SQLite, Vite, TailwindCSS
-- **Live Demo**: https://ahmetmikailbayindir.github.io/ReliefSense/
+- **Problem:** Food security shouldn't depend on stable internet - building offline-first agriculture platform for refugee camps, disaster relief zones, and low-connectivity communities
+- **Architecture:** Offline-first with sync capability, runs on Raspberry Pi hardware for affordable field deployment
+- **Features:** Real-time dashboards for crop health, water usage, and resource planning; IoT-ready integration for environmental sensors (temperature, humidity, CO₂)
+- **Accessibility:** Multi-language support (English, Arabic, Turkish) with right-to-left (RTL) layout
+- **Impact:** Showcasing how resilient technology can empower communities facing food security challenges in unreliable connectivity environments
+- **Tech Stack:** React, Flask, SQLite, Vite, TailwindCSS
+- **Live Demo (Public Showcase):** https://ahmetmikailbayindir.github.io/ReliefSense/
 
 **IT Support Specialist** @ Ottawa Immigrant Services Organization (2023-2024)
 - Managed multi-OS environments (Windows, macOS, Linux)
@@ -95,11 +96,20 @@ Professional resume detailing my:
 ## 🚀 Featured Projects
 
 ### [ReliefSense - Humanitarian Agriculture Platform](https://ahmetmikailbayindir.github.io/ReliefSense/) 🌍
-**Current Project** | **Tech Stack:** React, Flask, SQLite, Vite, TailwindCSS, Raspberry Pi
+**Current Project (Jan 2025 - Present)** | **Tech Stack:** React, Flask, SQLite, Vite, TailwindCSS, Raspberry Pi
 
-Offline-first agriculture management platform for refugee camps and disaster relief zones. Features real-time dashboards for crop monitoring, multi-language support (English, Arabic, Turkish) with RTL layout, and IoT integration for environmental sensors. Designed to run on Raspberry Pi hardware for affordable field deployment in low-connectivity humanitarian settings.
+**The Problem:** Food security shouldn't depend on stable internet. In many communities, internet access is unreliable — but food security and resource management can't wait.
 
-**[→ Live Demo](https://ahmetmikailbayindir.github.io/ReliefSense/)** | **[→ GitHub Repository](https://github.com/ahmetmikailbayindir/ReliefSense)**
+**The Solution:** Offline-first agriculture management platform with sync capability, designed for refugee camps, disaster relief zones, and low-connectivity environments. Runs on Raspberry Pi hardware for affordable field deployment.
+
+**Key Features:**
+- ✅ Offline-first architecture with automatic sync when connectivity returns
+- ✅ Real-time dashboards for crop health, water usage, and resource planning
+- ✅ IoT-ready integration for environmental sensors (temperature, humidity, CO₂)
+- ✅ Multi-language support (English, Arabic, Turkish) with right-to-left (RTL) layout
+- ✅ Built for resilience: works when internet doesn't
+
+**[→ Live Demo (Public Showcase)](https://ahmetmikailbayindir.github.io/ReliefSense/)** | **[→ GitHub Repository](https://github.com/ahmetmikailbayindir/ReliefSense)**
 
 ---
 

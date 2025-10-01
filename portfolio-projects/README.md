@@ -21,10 +21,13 @@ Hi! I'm Ahmet, a Computer Systems Technician - Networking student at Algonquin C
 
 **Currently building:**
 - 🚀 **Founder & Builder** at ReliefSense (Jan 2025 - Present)
-  - Building humanitarian agriculture platform for refugee camps and disaster relief zones
-  - Offline-first architecture on Raspberry Pi for low-connectivity environments
-  - Multi-language support (English, Arabic, Turkish) with real-time monitoring dashboards
-  - **Live Demo**: [ahmetmikailbayindir.github.io/ReliefSense](https://ahmetmikailbayindir.github.io/ReliefSense/)
+  - **Problem:** Food security shouldn't depend on stable internet
+  - Built offline-first agriculture platform with sync capability for refugee camps, disaster relief zones, and low-connectivity communities
+  - Real-time dashboards for crop health, water usage, and resource planning with IoT sensor integration (temperature, humidity, CO₂)
+  - Runs on Raspberry Pi for affordable field deployment
+  - Multi-language support (English, Arabic, Turkish) with right-to-left (RTL) layout
+  - Tech Stack: React, Flask, SQLite, Vite, TailwindCSS
+  - **Live Demo (Public Showcase)**: [ahmetmikailbayindir.github.io/ReliefSense](https://ahmetmikailbayindir.github.io/ReliefSense/)
 
 **Previous experience:**
 - **IT Support Specialist** at Ottawa Immigrant Services Organization (2023-2024)
