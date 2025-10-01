@@ -216,23 +216,34 @@ interface GigabitEthernet1/0/24
 
 ## 📚 What I Learned
 
-### Technical Skills
-- **Network design methodology**: Requirements gathering → design → implementation → testing
-- **VLAN trunking complexities**: Native VLAN security, allowed VLAN lists
-- **Firewall rule ordering**: Most specific first, default-deny last
-- **QoS configuration**: Bandwidth allocation, priority queuing
-- **Real-world compromises**: Balancing security vs usability
+### Technical Skills I Developed
 
-### Business Considerations
-- **Scalability**: Design allows adding 2 more VLANs without major changes
-- **Cost optimization**: Used UniFi instead of full Cisco for cost savings while maintaining features
-- **User experience**: Guest Wi-Fi needs to be seamless (captive portal)
-- **Documentation importance**: Network diagrams are critical for troubleshooting and handoff
+- **Network design methodology** - I learned to start with business requirements, not just throw equipment at a problem. Requirements → design → implementation → testing → documentation
+- **VLAN trunking complexities** - Native VLAN tagging, allowed VLAN lists, and why misconfigured trunks are a nightmare to debug
+- **Firewall rule ordering matters** - Most specific rules first, default-deny last. I learned this the hard way when my first rule blocked everything
+- **QoS isn't optional** - VoIP calls sounded terrible until I properly implemented priority queuing and bandwidth guarantees
+- **Security vs usability tradeoffs** - Guest Wi-Fi needs to be easy to use, but isolated from internal resources. Finding that balance was challenging
 
-### Challenges Overcome
-1. **Inter-VLAN routing performance**: Initially routed through firewall (bottleneck) → moved to L3 switch for local routing
-2. **VoIP quality issues**: Had to implement QoS properly - priority queuing vs bandwidth reservation
-3. **Guest Wi-Fi security**: Balancing convenience (no password) vs security (captive portal + throttling)
+### Business Considerations I Hadn't Thought About
+
+- **Scalability planning** - This design supports 50 devices now, but can scale to 200+ with minimal changes (just add switches)
+- **Cost optimization** - I compared full Cisco vs UniFi. Result: UniFi gives 80% of the features for 30% of the cost - perfect for small business
+- **User experience impact** - If Guest Wi-Fi requires complicated login, clients won't use it. Captive portal + simple password was the answer
+- **Documentation saves jobs** - When I leave, the next tech needs to understand this network. Clear diagrams and documentation are essential
+
+### Challenges I Overcame
+
+1. **Inter-VLAN routing bottleneck** - Initially routed everything through the firewall. Latency was terrible. Moving to Layer 3 switch for local routing solved it
+2. **VoIP call quality issues** - Voice calls were choppy. I learned the difference between priority queuing (delay-sensitive) and bandwidth reservation. QoS fixed it
+3. **Guest isolation testing** - I thought guests were isolated, but they could still access file shares via NetBIOS. Had to add explicit deny rules for all RFC1918 traffic
+
+### Why This Project Matters to Me
+
+**At Kelesoglu IT** (2017-2019), I maintained existing networks but never designed one from scratch. I followed what was already there. This project proves I can design a complete network solution - not just maintain someone else's work.
+
+**At OISO** (2023-2024), we had network performance issues and poor Wi-Fi coverage. Understanding VLAN design, QoS, and proper AP placement would have helped me propose actual solutions instead of just reporting problems.
+
+This is the project **I wish I could have built at Kelesoglu IT** - proper segmentation, guest isolation, and QoS. Instead, we had a flat network with everything in one broadcast domain. Now I know how to do it right.
 
 ## 🎯 Real-World Application
 

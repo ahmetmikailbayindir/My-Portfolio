@@ -395,26 +395,46 @@ sudo systemctl stop isc-dhcp-server
 
 ## 📚 What I Learned
 
-### Technical Skills
-- **DNS zone management**: Forward vs reverse zones, SOA records, TTL values
-- **DHCP scopes**: Pools, reservations, lease times, options
-- **Failover configuration**: Split scope model, MCLT, load balancing
-- **DNSSEC**: Zone signing, key management, chain of trust
-- **Troubleshooting**: dig, nslookup, tcpdump for DNS/DHCP traffic
+### Technical Skills I Developed
 
-### Networking Concepts
-- **DNS hierarchy**: Root servers → TLD → authoritative servers
-- **DHCP process**: DORA (Discover, Offer, Request, Acknowledge)
-- **Caching behavior**: TTL impact on propagation, negative caching
-- **High availability**: Primary/secondary, automatic failover
-- **Integration**: How DNS and DHCP work together for seamless networking
+- **DNS zone management** - I learned the difference between forward zones (name→IP) and reverse zones (IP→name). SOA records define zone authority, TTL controls caching. Getting these wrong breaks DNS resolution
+- **DHCP scopes and reservations** - Setting up DHCP pools for dynamic allocation vs static reservations for servers. Lease times matter - too short causes churn, too long wastes IPs when devices leave
+- **Failover configuration** - Split-scope model between primary/secondary DHCP servers. MCLT (Maximum Client Lead Time) prevents both servers from offering the same IP. Without proper failover, DHCP server failure kills the network
+- **DNSSEC implementation** - Zone signing for authenticity, key management (KSK/ZSK), understanding the chain of trust. DNSSEC prevents DNS spoofing attacks
+- **Troubleshooting DNS/DHCP** - `dig` shows exactly what DNS returns, `nslookup` tests resolution, `tcpdump` captures DHCP DORA process. Essential for diagnosing network issues
 
-### Real-World Insights
-- **DNS is critical**: When DNS fails, everything breaks - redundancy is essential
-- **DHCP exhaustion**: Monitor pool usage or you'll run out of IPs during busy times
-- **Static vs dynamic**: Servers need static IPs, workstations use DHCP
-- **Documentation**: Keep DNS records updated - outdated records cause confusion
-- **Security**: DNS amplification attacks are real - restrict recursion
+### Networking Concepts That Clicked
+
+- **DNS hierarchy** - I finally understood how queries flow: client → recursive resolver → root servers → TLD servers (.com) → authoritative servers (company.com). Each level has redundancy
+- **DHCP DORA process** - Discover (broadcast), Offer (server responds), Request (client accepts), Acknowledge (server confirms). Understanding this helped me troubleshoot why devices weren't getting IPs
+- **Caching behavior** - TTL determines how long DNS records are cached. Low TTL (60s) means fast updates but more queries. High TTL (86400s) reduces load but delays changes. I learned to drop TTL before migrations
+- **High availability design** - Primary/secondary DNS with zone transfers. DHCP failover with split scopes. Single point of failure = network outage
+- **DNS and DHCP integration** - DHCP can update DNS dynamically when it assigns IPs. This makes DHCP clients resolvable by name automatically
+
+### Real-World Insights I Gained
+
+- **DNS failure breaks everything** - At The Home Store, DNS misconfiguration during migration took the site down. It wasn't the webserver, it was DNS. That's when I learned: DNS is the most critical service
+- **DHCP pool exhaustion** - I configured a /28 network (14 usable IPs) for testing. Ran out after 10 devices. Monitoring DHCP pool usage prevents "no IP available" emergencies
+- **Static IPs for infrastructure** - Servers, printers, network gear need static IPs. If DHCP assigned them dynamic IPs, nothing would work after DHCP restart
+- **Documentation prevents chaos** - Outdated DNS records pointing to old IPs waste hours of troubleshooting. I learned to document every DNS change immediately
+- **DNS amplification attacks** - Leaving DNS recursion open to the internet makes you a DDoS amplifier. Restrict recursive queries to internal networks only
+
+### Why This Project Matters to Me
+
+**At The Home Store** (2022-2023), I managed DNS records during site migrations:
+- Moving from Shopify to Magento required DNS changes
+- SSL certificate validation needed proper DNS records
+- I knew enough to change A records, but didn't understand **how DNS actually worked**
+
+This lab showed me the full picture - authoritative servers, zone files, caching, TTL propagation. Now I could **build and manage** a DNS infrastructure, not just edit records in a web UI.
+
+**At OISO** (2023-2024), DNS and DHCP were critical services, but I never saw how they were configured. When issues occurred, I relied on senior admins. This lab shows I can now:
+- Configure primary/secondary DNS servers from scratch
+- Set up DHCP with proper scopes and failover
+- Troubleshoot resolution issues systematically
+- Implement DNSSEC for security
+
+These are **foundational network services**. Every company network needs them. Understanding how they work makes me a better network technician.
 
 ## 🎯 Real-World Application
 

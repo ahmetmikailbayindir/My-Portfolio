@@ -44,21 +44,39 @@ This repository contains practical Bash scripting projects completed during the 
 
 ## 📚 What I Learned
 
-- Writing clean, maintainable Bash scripts
-- Input validation and error handling
-- Nested flow control structures (if/else, while, for)
-- File permissions and execution in Linux
-- Best practices for script documentation
+These scripts taught me the fundamentals of Linux automation:
+
+- **Writing maintainable Bash scripts** - I learned that clear variable names and comments make scripts easier to debug later
+- **Input validation is critical** - Users will always enter unexpected data, so I built robust error handling into every script
+- **Flow control mastery** - Nested if/else and while loops became second nature through these exercises
+- **Linux permissions** - Understanding chmod and execution permissions was essential for making scripts work
+- **Documentation matters** - Well-documented scripts are easier to maintain and share with others
+
+### Why This Matters
+
+At **Kelesoglu IT** (2017-2019), I did a lot of repetitive tasks manually - resetting passwords, checking disk space, creating user accounts. These Bash scripting skills would have saved me hours every week. Now I understand how to automate those tasks properly.
+
+The calculator script's division-by-zero handling taught me an important lesson: **never trust user input**. This mindset carried over to my work at **OISO**, where I always validated form inputs to prevent errors.
 
 ## 📸 Screenshots
 
 Each project folder contains screenshots demonstrating the script in action.
 
-## 👤 Author
+## 👤 About This Project
 
-**Your Name**
-Computer Systems Technician - Networking
-Algonquin College
+**Created by**: Ahmet Mikail Bayindir
+**Program**: Computer Systems Technician - Networking
+**Institution**: Algonquin College
+**Course**: CST8245 - Linux Scripting
+
+### What I Built
+
+I created three Bash scripts that solve real-world problems:
+1. **Parity Counter** - Analyzes number patterns (useful for data validation)
+2. **Number Guessing Game** - Interactive program demonstrating user feedback loops
+3. **Calculator** - Practical tool with proper error handling
+
+These aren't just academic exercises - they're building blocks for automation scripts I'll use throughout my IT career.
 
 ## 📄 License
 
