@@ -19,7 +19,14 @@ Hi! I'm Ahmet, a Computer Systems Technician - Networking student at Algonquin C
 
 ### My Background
 
-Before returning to school, I worked as:
+**Currently building:**
+- 🚀 **Founder & Builder** at ReliefSense (Jan 2025 - Present)
+  - Building humanitarian agriculture platform for refugee camps and disaster relief zones
+  - Offline-first architecture on Raspberry Pi for low-connectivity environments
+  - Multi-language support (English, Arabic, Turkish) with real-time monitoring dashboards
+  - **Live Demo**: [ahmetmikailbayindir.github.io/ReliefSense](https://ahmetmikailbayindir.github.io/ReliefSense/)
+
+**Previous experience:**
 - **IT Support Specialist** at Ottawa Immigrant Services Organization (2023-2024)
   - Supported multi-OS environments (Windows, macOS, Linux)
   - Managed Active Directory and LDAP identity services

@@ -29,6 +29,20 @@ Algonquin College, Ottawa, ON | May 2024 - Present
 
 ## Work Experience
 
+### Founder & Builder - ReliefSense Platform
+**ReliefSense** (Self-employed) | Ottawa, ON (Hybrid) | Jan. 2025 - Present
+
+**Main Task:** Founded and built ReliefSense, a humanitarian agriculture platform created to support refugee camps, disaster relief zones, and resource-constrained communities.
+
+**Key Achievements:**
+- Designed the system to run on Raspberry Pi hardware for affordable, field-ready deployment
+- Implemented multi-language and right-to-left (RTL) support for global accessibility (English, Arabic, Turkish)
+- Built real-time dashboards for monitoring crop health, water usage, and resource planning
+- Developed using React, Flask, SQLite, Vite, and TailwindCSS with an offline-first architecture for low-connectivity environments
+- Released a public showcase version hosted on GitHub Pages to demonstrate the platform's vision and impact
+- Highlights how resilient technology can empower communities facing food security challenges
+- **Live Demo**: https://ahmetmikailbayindir.github.io/ReliefSense/
+
 ### IT Support Specialist
 **Ottawa Immigrant Services Organization (OISO)** | Ottawa, ON | Feb. 2023 - Jan. 2024
 
@@ -64,12 +78,6 @@ Algonquin College, Ottawa, ON | May 2024 - Present
 ---
 
 ## Projects
-
-### ReliefSense – IoT Agriculture Dashboard | 2024
-- Built a full-stack dashboard using React + TypeScript frontend and Python Flask backend
-- Integrated real-time sensor updates via WebSockets, enabling live monitoring of temperature, humidity, and CO₂
-- Designed with multi-language support and a mobile-first responsive layout for accessibility
-- Practiced secure coding and authentication, strengthening data protection
 
 ### Web Developer & Cloud Infrastructure Specialist (AWS + WordPress) | 2021-2024
 - Designed and deployed a WordPress site with NGINX reverse proxy and firewall rules for secure access

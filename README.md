@@ -51,10 +51,19 @@ Professional resume detailing my:
 ## 🎯 About Me
 
 ### Current Focus
+🚀 **Founder & Builder** - ReliefSense Platform (Jan 2025 - Present)
 🎓 **Student** - Computer Systems Technician - Networking @ Algonquin College (2024-Present)
 📚 Learning: Advanced networking, security, cloud infrastructure, and automation
 
 ### Professional Experience
+
+**Founder & Builder** @ ReliefSense (Jan 2025 - Present)
+- Building humanitarian agriculture platform for refugee camps and disaster relief zones
+- Offline-first architecture running on Raspberry Pi for affordable field deployment
+- Multi-language support (English, Arabic, Turkish) with RTL layout
+- Real-time dashboards for crop health, water usage, and resource planning
+- Tech stack: React, Flask, SQLite, Vite, TailwindCSS
+- **Live Demo**: https://ahmetmikailbayindir.github.io/ReliefSense/
 
 **IT Support Specialist** @ Ottawa Immigrant Services Organization (2023-2024)
 - Managed multi-OS environments (Windows, macOS, Linux)
@@ -84,6 +93,15 @@ Professional resume detailing my:
 ---
 
 ## 🚀 Featured Projects
+
+### [ReliefSense - Humanitarian Agriculture Platform](https://ahmetmikailbayindir.github.io/ReliefSense/) 🌍
+**Current Project** | **Tech Stack:** React, Flask, SQLite, Vite, TailwindCSS, Raspberry Pi
+
+Offline-first agriculture management platform for refugee camps and disaster relief zones. Features real-time dashboards for crop monitoring, multi-language support (English, Arabic, Turkish) with RTL layout, and IoT integration for environmental sensors. Designed to run on Raspberry Pi hardware for affordable field deployment in low-connectivity humanitarian settings.
+
+**[→ Live Demo](https://ahmetmikailbayindir.github.io/ReliefSense/)** | **[→ GitHub Repository](https://github.com/ahmetmikailbayindir/ReliefSense)**
+
+---
 
 ### [Home Network Lab](portfolio-projects/06-home-network-lab/)
 Enterprise-grade network design with 5 VLANs, pfSense firewall, QoS, and VPN. Demonstrates network segmentation, security, and scalability.
