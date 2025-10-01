@@ -147,6 +147,114 @@ Unlike typical students, I bring:
 
 ---
 
+### [06 - Home Network Lab](06-home-network-lab/) 🏠
+**Courses**: CST8182, CST8315, CST8378, CST8317
+**Skills**: Network design, VLANs, QoS, Wireless, Firewall configuration
+
+**What I Built**:
+- Complete small business network with 5 VLANs (Management, Creative, Operations, Servers, Guest)
+- pfSense firewall with security zones and content filtering
+- VPN access for remote workers
+- Network monitoring and management infrastructure
+
+**What I Learned**:
+- Network design methodology from requirements to implementation
+- VLAN trunking, inter-VLAN routing, and network segmentation for security
+- QoS configuration to prioritize VoIP and video traffic
+- This is the project I wish I could have built at Kelesoglu IT
+
+---
+
+### [07 - Linux Server Monitoring & Automation](07-linux-monitoring-automation/) 🐧
+**Courses**: CST8207, CST8305
+**Skills**: Bash scripting, system administration, automation, monitoring
+
+**What I Created**:
+- Comprehensive monitoring system tracking disk, CPU, memory, services
+- Automated alerting via email and Slack webhooks
+- Service auto-restart for critical applications
+- Security monitoring for failed logins and suspicious activity
+
+**What I Learned**:
+- Proactive monitoring prevents outages before users notice
+- Bash scripting at scale requires careful error handling
+- Alert fatigue is real - spent time tuning thresholds appropriately
+- This would have saved us at OISO when our file server ran out of disk space
+
+---
+
+### [08 - Network Security Lab](08-network-security-lab/) 🔒
+**Course**: CST8323 (Cyber & Network Security)
+**Skills**: Firewall configuration, IDS/IPS, security monitoring, threat detection
+
+**What I Built**:
+- Multi-layer defense with pfSense firewall and Snort IDS
+- DMZ for public-facing services, isolated internal network
+- Custom Snort rules for attack detection (port scans, brute force, SQL injection)
+- Real-time security monitoring and alerting system
+
+**What I Learned**:
+- Defense in depth - multiple layers catch what one misses
+- Firewall rule ordering is critical (most specific first)
+- False positives kill IDS adoption - tuning is essential
+- Tested with ethical hacking (Kali Linux) to verify security
+
+---
+
+### [09 - Cloud Infrastructure Deployment](09-cloud-infrastructure/) ☁️
+**Course**: CST8248 (Cloud Infrastructure Administration)
+**Skills**: AWS, Terraform, Docker, CI/CD, DevOps
+
+**What I Built**:
+- Complete AWS infrastructure with EC2, RDS, S3, CloudFront
+- Infrastructure as Code using Terraform
+- Automated CI/CD pipeline with GitHub Actions
+- NGINX reverse proxy with SSL, monitoring with CloudWatch
+
+**What I Learned**:
+- Infrastructure as Code makes deployments reproducible
+- Docker multi-stage builds reduced image size by 70%
+- CI/CD automates deployments and reduces human error
+- This formalizes what I did at The Home Store with WordPress/AWS
+
+---
+
+### [10 - DNS & DHCP Server Lab](10-dns-dhcp-server/) 📡
+**Course**: CST8246 (Network Services Administration)
+**Skills**: DNS (BIND9), DHCP, high availability, failover
+
+**What I Built**:
+- Primary and secondary DNS servers with zone transfers
+- DHCP server with failover configuration
+- Static IP reservations and scope management
+- Integration with Active Directory for seamless networking
+
+**What I Learned**:
+- DNS is critical - when it fails, everything breaks
+- DHCP exhaustion monitoring prevents IP address shortages
+- Failover configuration ensures high availability
+- This deepens my DNS experience from The Home Store migrations
+
+---
+
+### [11 - Python Network Tools](11-python-network-tools/) 🐍
+**Course**: CST8324 (Programming Fundamentals)
+**Skills**: Python, network automation, scripting, tool development
+
+**What I Created**:
+- Subnet calculator with VLSM support
+- Network scanner for host discovery and port scanning
+- Log analyzer for security threat detection
+- Automated config backup for network devices
+
+**What I Learned**:
+- Python is the language of network automation
+- Threading makes port scanning 10x faster
+- Automation eliminates error-prone manual tasks
+- These tools solve problems I faced at OISO and Kelesoglu
+
+---
+
 ## 🌟 Personal Projects (Beyond Coursework)
 
 ### ReliefSense - IoT Agriculture Dashboard (2024)
