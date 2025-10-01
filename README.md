@@ -163,7 +163,6 @@ I'm actively seeking **Junior System Administrator**, **Network Technician**, or
 ## 🏆 Certifications & Clearances
 
 - **Secret/Reliability Clearance** - Government of Canada
-- **AODA & WHMIS Certified**
 - **CCNA Preparation** (In Progress)
 
 ---
