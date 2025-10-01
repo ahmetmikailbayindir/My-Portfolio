@@ -90,6 +90,6 @@ Output: [expected output]
 
 ---
 
-**Author**: [Your Name]
+**Author**: Ahmet Mikail Bayindir
 **Course**: [Course Code - Course Name]
-**Date**: [Date]
+**Date**: October 2025

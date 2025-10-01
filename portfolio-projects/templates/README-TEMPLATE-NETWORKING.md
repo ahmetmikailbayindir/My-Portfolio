@@ -132,6 +132,6 @@ traceroute [destination]
 
 ---
 
-**Author**: [Your Name]
+**Author**: Ahmet Mikail Bayindir
 **Course**: CST8371 - Networking Fundamentals
-**Date**: [Date]
+**Date**: October 2025

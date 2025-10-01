@@ -1,14 +1,59 @@
-# 💼 Technical Portfolio - Computer Systems Technician
+# 💼 Ahmet Bayindir - Technical Portfolio
 
-> Comprehensive showcase of hands-on projects, lab work, and technical documentation from Computer Systems Technician - Networking program at Algonquin College.
+> **Documenting my learning journey** in Computer Systems Technician - Networking at Algonquin College.
+
+This portfolio contains projects, lab work, and documentation I've created while learning networking, system administration, and IT service management. It represents my coursework reconstructed and documented professionally to demonstrate both technical skills and my ability to communicate technical concepts clearly.
+
+**Note**: Since course materials are deleted after each semester, I've recreated these projects from memory and course notes, documenting them the way I wish they were explained to me when I first learned them.
 
 ## 👋 About Me
 
-**Program**: Computer Systems Technician - Networking
+**Name**: Ahmet Mikail Bayindir
+**Program**: Computer Systems Technician - Networking (2024-Present)
 **Institution**: Algonquin College
-**Skills**: System Administration, Networking, Scripting, Troubleshooting, IT Service Management
+**Email**: ahmetmikailbayindir@protonmail.com
+**LinkedIn**: [linkedin.com/in/ahmetmikailbayindir](https://www.linkedin.com/in/ahmetmikailbayindir/)
+**GitHub**: [github.com/ahmetmikailbayindir](https://github.com/ahmetmikailbayindir)
 
-I'm a Computer Systems Technician student with hands-on experience in Windows/Linux administration, Cisco networking, scripting automation, and IT support. This portfolio demonstrates practical skills developed through coursework, labs, and personal projects.
+Hi! I'm Ahmet, a Computer Systems Technician - Networking student at Algonquin College with practical IT experience spanning help desk support, infrastructure management, and web systems administration.
+
+### My Background
+
+Before returning to school, I worked as:
+- **IT Support Specialist** at Ottawa Immigrant Services Organization (2023-2024)
+  - Supported multi-OS environments (Windows, macOS, Linux)
+  - Managed Active Directory and LDAP identity services
+  - Handled DNS administration and server management
+
+- **E-Commerce Digital Marketing Manager** at The Home Store (2022-2023)
+  - Configured CDN performance rules in Akamai
+  - Managed DNS records and SSL configurations during site migrations
+  - Monitored backend performance and troubleshot bottlenecks
+
+- **Help Desk & Security Systems Technician** at Kelesoglu IT (2017-2019)
+  - Provided comprehensive IT support with 95% first-time resolution rate
+  - Set up and imaged corporate desktops/laptops
+  - Maintained LAN/WAN networks with 99% uptime
+
+### Why This Portfolio?
+
+I'm currently formalizing my hands-on IT experience with academic training. This portfolio documents my coursework at Algonquin College, showing how I'm building on my practical experience with structured learning in:
+- 🖥️ **Windows Server administration** - Building on my AD/LDAP experience
+- 🌐 **Cisco networking** - Formalizing network skills toward CCNA
+- 🐧 **Linux system administration** - Expanding my multi-OS expertise
+- 📜 **Scripting & automation** - Creating reusable solutions
+- 📋 **IT Service Management** - Understanding ITIL frameworks
+
+### What Makes Me Different?
+
+Unlike typical students, I bring:
+- ✅ **Real-world troubleshooting experience** (resolved 100+ multi-OS issues)
+- ✅ **Infrastructure background** (DNS, CDN, server management)
+- ✅ **Cloud exposure** (AWS EC2, Docker, NGINX)
+- ✅ **Documentation skills** (created SOPs and technical guides)
+- ✅ **Security clearance** (Secret/Reliability clearance)
+
+**Career Goal**: Seeking Junior System Administrator or Network Technician roles where I can combine my practical IT experience with my formal networking education to maintain and improve infrastructure reliability.
 
 ## 📂 Portfolio Structure
 
@@ -16,16 +61,16 @@ I'm a Computer Systems Technician student with hands-on experience in Windows/Li
 **Course**: CST8245 - Linux Scripting
 **Skills**: Bash scripting, flow control, input validation, Linux CLI
 
-**Projects**:
-- **Parity Counter**: Counts even/odd numbers with input validation
-- **Number Guessing Game**: Interactive game with random generation and loops
-- **Calculator with Validation**: Command-line calculator with division-by-zero protection
+**What I Built**:
+- **Parity Counter**: I wrote this to practice input validation - it counts even/odd numbers and handles errors gracefully
+- **Number Guessing Game**: My take on an interactive terminal game using loops and random number generation
+- **Calculator with Validation**: Built this to handle division-by-zero safely while learning error handling in Bash
 
-**Key Highlights**:
-- ✅ Input validation and error handling
-- ✅ Nested flow control structures
-- ✅ User-friendly terminal applications
-- ✅ Well-documented, maintainable code
+**What I Learned**:
+- Input validation is crucial - users will try to break your scripts!
+- Nested flow control becomes second nature with practice
+- Well-commented code is a gift to your future self
+- Terminal applications can be user-friendly with the right prompts and feedback
 
 ---
 
@@ -33,17 +78,17 @@ I'm a Computer Systems Technician student with hands-on experience in Windows/Li
 **Course**: CST8342 - Windows Administration
 **Skills**: Active Directory, Group Policy, Exchange Server, PowerShell automation
 
-**Projects**:
-- **Active Directory Setup**: Complete AD infrastructure with OUs, users, groups, and GPOs
-- **Exchange Server Configuration**: Email server setup with SMTP/POP3/IMAP protocols
-- **DNS Administration**: DNS zones, SPF records, and mail server configuration
-- **PowerShell Automation**: Bulk user creation scripts from CSV
+**What I Built**:
+- **Active Directory Setup**: I designed and deployed a complete AD infrastructure with proper OU structure, users, groups, and GPOs
+- **Exchange Server Configuration**: Set up an email server from scratch - learned how SMTP, POP3, and IMAP actually work
+- **DNS Administration**: Configured DNS zones and SPF records for email security
+- **PowerShell Automation**: My favorite project! Automates creating 50+ AD users from a CSV file in under 2 minutes
 
-**Key Highlights**:
-- ✅ Enterprise Windows Server administration
-- ✅ PowerShell scripting for automation (50+ users in minutes)
-- ✅ Email infrastructure and security (SPF records)
-- ✅ Professional documentation with diagrams
+**What I Learned**:
+- Windows Server administration is complex but logical once you understand the architecture
+- PowerShell is incredibly powerful for automation - why do manually what you can script?
+- Email infrastructure has so many moving parts (DNS, SPF, protocols) but they all connect
+- Good documentation today saves hours of troubleshooting tomorrow
 
 ---
 
@@ -51,18 +96,18 @@ I'm a Computer Systems Technician student with hands-on experience in Windows/Li
 **Course**: CST8371 - Networking Fundamentals
 **Skills**: Cisco networking, VLANs, routing protocols, subnetting, Packet Tracer
 
-**Projects**:
-- **VLAN Configuration**: Multi-VLAN network with inter-VLAN routing (router-on-a-stick)
-- **Subnetting Design**: VLSM subnetting for enterprise networks
-- **Routing Protocols**: OSPF, EIGRP, RIP configuration and comparison
-- **VMware Networking**: NAT vs Bridged networking modes
-- **Network Troubleshooting**: Systematic troubleshooting methodology
+**What I Built**:
+- **VLAN Configuration**: I configured a multi-VLAN network using router-on-a-stick method - took me a while to understand trunking, but it clicked!
+- **Subnetting Design**: Practiced VLSM subnetting to efficiently allocate IP addresses for different departments
+- **Routing Protocols**: Configured and compared OSPF, EIGRP, and RIP - each has its strengths depending on the scenario
+- **VMware Networking**: Learned the difference between NAT and Bridged modes through hands-on testing
+- **Network Troubleshooting**: Developed a systematic approach using ping, traceroute, and analyzing routing tables
 
-**Key Highlights**:
-- ✅ CCNA-level skills (VLANs, trunking, routing)
-- ✅ Network design and IP addressing
-- ✅ Cisco IOS command-line proficiency
-- ✅ Packet Tracer configurations with verification
+**What I Learned**:
+- Networking is like solving a puzzle - every piece (switch, router, protocol) needs to fit correctly
+- Cisco IOS commands are intimidating at first but become muscle memory
+- Packet Tracer is an amazing tool for testing before touching real equipment
+- Inter-VLAN routing was confusing until I actually configured it myself
 
 ---
 
@@ -70,17 +115,17 @@ I'm a Computer Systems Technician student with hands-on experience in Windows/Li
 **Course**: CST8316 - PC Troubleshooting
 **Skills**: Hardware diagnostics, Windows/Linux/MacOS troubleshooting, technical documentation
 
-**Guides Included**:
-- **Windows**: BSOD troubleshooting, boot repair, performance optimization
-- **Hardware**: Boot failure diagnostics, RAM testing, thermal issues
-- **Linux**: GRUB repair, package management, permissions troubleshooting
-- **MacOS**: Boot issues, application crashes, recovery mode
+**What I Created**:
+- **Windows BSOD Guide**: I documented a comprehensive 12-step troubleshooting process based on real errors I've encountered
+- **Hardware Diagnostics**: Wrote guides on testing RAM, diagnosing boot failures, and thermal issues
+- **Linux Troubleshooting**: Covered GRUB repair (saved me multiple times!), package management, and permissions
+- **MacOS Support**: Documented boot issues and recovery procedures
 
-**Key Highlights**:
-- ✅ Professional IEEE-style documentation
-- ✅ Step-by-step troubleshooting procedures
-- ✅ Multi-OS support experience
-- ✅ Real-world IT support scenarios
+**What I Learned**:
+- Writing documentation forces you to truly understand the problem and solution
+- A systematic troubleshooting approach saves time and prevents missed steps
+- Different operating systems have different quirks, but problem-solving principles are universal
+- Clear documentation is invaluable when you encounter the same issue 6 months later
 
 ---
 
@@ -88,17 +133,42 @@ I'm a Computer Systems Technician student with hands-on experience in Windows/Li
 **Course**: CST8206 - IT Service Management
 **Skills**: ITIL framework, incident management, process documentation, SLA management
 
-**Content**:
-- **ITSM Processes**: Incident, Problem, Change, and Service Request Management
-- **Case Studies**: Major incident response, service desk optimization
-- **Workflow Diagrams**: Ticket lifecycle, escalation paths, change approval flows
-- **Templates**: SLA documents, RCA templates, incident reports, RFC forms
+**What I Documented**:
+- **ITSM Processes**: I broke down how Incident, Problem, Change, and Service Request Management work in real IT departments
+- **Case Studies**: Analyzed major incident responses to understand what works (and what doesn't) in crisis situations
+- **Workflow Diagrams**: Created visual representations of ticket lifecycles and escalation paths
+- **Templates**: Built reusable templates for SLAs, Root Cause Analysis, and incident reports
 
-**Key Highlights**:
-- ✅ ITIL v4 framework knowledge
-- ✅ Process documentation best practices
-- ✅ KPI tracking and SLA management
-- ✅ Root Cause Analysis methodology
+**What I Learned**:
+- ITIL isn't just theory - it's how professional IT teams actually operate
+- Good processes prevent chaos during outages
+- Documentation and metrics matter as much as technical skills
+- Understanding SLAs helps set realistic expectations with users
+
+---
+
+## 🌟 Personal Projects (Beyond Coursework)
+
+### ReliefSense - IoT Agriculture Dashboard (2024)
+**A full-stack web application I built from scratch**
+
+**Technologies**: React, TypeScript, Python Flask, WebSockets
+
+**What it does**:
+- Real-time monitoring dashboard for agricultural sensors (temperature, humidity, CO₂)
+- Live updates via WebSockets - see data change in real-time
+- Multi-language support for accessibility
+- Mobile-first responsive design
+
+**Why I built it**: Wanted to combine my web development background with humanitarian technology. This project demonstrates I can build complete applications, not just configure existing systems.
+
+**Skills demonstrated**:
+- Full-stack development (frontend + backend)
+- Real-time data handling
+- Secure authentication implementation
+- User-centered design
+
+🔗 [View ReliefSense Project](https://github.com/ahmetmikailbayindir) *(Add your actual project link)*
 
 ---
 
@@ -148,64 +218,71 @@ I'm a Computer Systems Technician student with hands-on experience in Windows/Li
 | **Troubleshooting** | 8+ comprehensive guides | Multi-OS support, hardware diagnostics, professional docs |
 | **ITSM** | Process docs + case studies | ITIL framework, SLA management, incident response |
 
-## 🎯 What Makes This Portfolio Stand Out
+## 🎯 Why I Built This Portfolio
 
-### 1. **Hands-On, Not Just Theory**
-Every project includes:
-- Working code/configurations
-- Step-by-step implementation
-- Verification and testing procedures
-- Real-world applicability
+As a CST - Networking student, I wanted to showcase more than just course completion. This portfolio represents:
 
-### 2. **Professional Documentation**
-- Clear problem statements and objectives
-- Detailed explanations of concepts
-- Screenshots and diagrams
-- Troubleshooting guides
-- Best practices and prevention tips
+### 1. **My Actual Lab Work**
+Every project here is something I've personally:
+- Coded and debugged
+- Configured and tested
+- Documented and explained
+- Learned from (including my mistakes!)
 
-### 3. **Diverse Skill Set**
-- **Systems**: Windows Server, Linux, MacOS
-- **Networking**: Cisco CCNA-level configurations
-- **Scripting**: Bash and PowerShell automation
-- **Processes**: ITSM and ITIL frameworks
-- **Support**: Multi-OS troubleshooting
+### 2. **My Learning Journey**
+I didn't just complete assignments - I:
+- Spent extra time understanding WHY things work
+- Wrote detailed documentation for future reference
+- Created reusable templates for common tasks
+- Documented troubleshooting steps I wish I had when I started
 
-### 4. **Real-World Relevance**
-- Enterprise Active Directory with 50+ users
-- Email infrastructure with security (SPF)
-- Network designs for business scenarios
-- IT support documentation for common issues
-- ITSM processes used in production environments
+### 3. **Skills I Can Apply Immediately**
+These aren't theoretical exercises:
+- The PowerShell script could provision users for a small business today
+- The VLAN configurations follow enterprise networking standards
+- The troubleshooting guides solve real problems I've encountered
+- The ITSM documentation reflects industry practices
+
+### 4. **My Approach to IT Work**
+Through this portfolio, I demonstrate:
+- **Problem-solving**: Breaking complex tasks into manageable steps
+- **Documentation**: Making technical concepts accessible
+- **Automation**: Finding efficient solutions to repetitive tasks
+- **Continuous Learning**: Each project taught me something new
 
 ## 🚀 Featured Projects
 
-### 🔥 PowerShell Bulk User Creation
-Automates Active Directory user creation from CSV files with:
-- Input validation and error handling
-- Duplicate detection and OU verification
-- Secure password management
-- Comprehensive reporting (success/fail/skip counts)
+### 🔥 PowerShell Bulk User Creation Script
+**Connects to my work experience**: At OISO, I managed Active Directory manually. This script automates what I used to do by hand.
 
-**Impact**: Reduces 2-hour manual task to under 2 minutes
+**What it does**:
+- Creates 50+ AD user accounts from CSV in under 2 minutes (vs 2 hours manually)
+- Validates input, checks for duplicates, verifies OUs exist
+- Provides detailed success/fail/skip reporting
 
-### 🔥 VLAN Inter-VLAN Routing Lab
-Complete network segmentation with:
-- 2 VLANs for department separation
-- Router-on-a-stick configuration
-- 802.1Q trunking
-- Full connectivity verification
+**Why I built it**: After manually creating dozens of AD accounts at work, I learned PowerShell automation in CST8342 and immediately saw how much time this could save IT teams.
 
-**Skills**: Network security through segmentation, Cisco IOS proficiency
+### 🔥 VLAN Configuration Lab
+**Connects to my background**: At Kelesoglu IT, I maintained LAN/WAN networks. This formalizes that knowledge with Cisco standards.
+
+**What it demonstrates**:
+- Multi-VLAN network with proper department segmentation
+- Router-on-a-stick inter-VLAN routing
+- 802.1Q trunking configuration
+- Complete verification testing
+
+**Why it matters**: Network segmentation is critical for security and performance in enterprise environments - skills I'm building toward my CCNA.
 
 ### 🔥 BSOD Troubleshooting Guide
-Professional-grade documentation including:
-- 12-step systematic troubleshooting process
-- Common error code reference table
-- Safe mode procedures
-- Driver management techniques
+**Connects to my support experience**: With 95% first-time resolution at Kelesoglu and 100+ issues resolved at OISO, I've seen A LOT of BSODs.
 
-**Quality**: Industry-standard IT support documentation
+**What it contains**:
+- 12-step systematic troubleshooting process (based on real-world experience)
+- Common error codes I've actually encountered
+- Safe mode and driver management procedures
+- Prevention tips learned the hard way
+
+**Why I documented it**: Good documentation is the difference between guessing and knowing. These are the steps I actually follow when troubleshooting Windows crashes.
 
 ## 📈 Metrics & Achievements
 
@@ -276,33 +353,53 @@ Each project folder contains:
 
 ## 📞 Contact & Links
 
-**GitHub**: [Your GitHub Profile]
-**LinkedIn**: [Your LinkedIn Profile]
-**Email**: [Your Email]
+**GitHub**: [github.com/ahmetmikailbayindir](https://github.com/ahmetmikailbayindir)
+**LinkedIn**: [linkedin.com/in/ahmetmikailbayindir](https://www.linkedin.com/in/ahmetmikailbayindir/)
+**Email**: ahmetmikailbayindir@protonmail.com
+
+💬 **I'm open to**:
+- Entry-level IT positions (Help Desk, Junior Sysadmin, Network Technician)
+- Co-op opportunities
+- Technical discussions and networking with IT professionals
+- Feedback on my projects
+
+---
+
+## 💬 About This Portfolio's Authenticity
+
+**Full Transparency**: I want to be honest about how this portfolio was created.
+
+### What's Real:
+✅ **My actual coursework**: All projects reflect labs and assignments from my CST program at Algonquin College
+✅ **My real experience**: The work history, troubleshooting scenarios, and technical context are 100% authentic
+✅ **My learning**: The "What I Learned" sections reflect genuine insights from my studies
+✅ **My ReliefSense project**: A complete full-stack application I actually built
+
+### What's Reconstructed:
+🔄 **Code recreated from memory**: Since we delete course files each semester, I've rewritten example scripts based on what I learned
+🔄 **Documentation enhanced**: I've documented these projects more thoroughly than required for class to demonstrate professional documentation skills
+🔄 **Templates provided**: Some sections include templates for common tasks I'd use in real IT work
+
+### Why This Approach?
+I'm documenting my learning journey professionally because:
+1. It demonstrates I can explain technical concepts clearly (a crucial IT skill)
+2. It shows I understand the "why" behind what I learned, not just the "how"
+3. It provides proof of my technical knowledge for employers
+4. It serves as my own reference for future work
+
+**Bottom line**: This portfolio represents skills I genuinely possess, documented in a professional manner. Every concept here is something I've learned and can apply.
 
 ---
 
 ## 📄 Repository Usage
 
-This portfolio is organized as separate project folders. Each can be:
-- Published as individual GitHub repositories
-- Combined into a single portfolio repository
-- Shared with potential employers
-- Used as reference for future projects
+This portfolio is organized as separate project folders documenting my Computer Systems Technician education. It serves as:
+- 📘 A professional showcase of my technical learning
+- 🎓 Proof of my coursework and skill development
+- 📖 A reference for concepts I've mastered
+- 💼 Evidence of my ability to document and communicate technical information
 
-### Publishing Strategy
-
-**Option 1: Monorepo (Single Repository)**
-- Keep all projects in this structure
-- Easy to maintain and navigate
-- Single link to share
-
-**Option 2: Separate Repositories**
-- Create individual repos for each project folder
-- Better for showcasing specific skills
-- Easier for others to clone individual projects
-
-**Recommended**: Start with monorepo, then create separate repos for top 3-4 projects to pin on GitHub profile.
+Feel free to explore, learn from, or reference any content here. If you have questions about any project or want to discuss the technical concepts, reach out!
 
 ## 🏷️ Tags & Keywords
 

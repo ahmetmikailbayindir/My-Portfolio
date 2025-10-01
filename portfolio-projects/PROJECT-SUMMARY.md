@@ -162,7 +162,7 @@ A professional, GitHub-ready technical portfolio organized into **5 major projec
 
 ### Phase 1: Essential (Do First)
 1. **Replace Placeholders**
-   - Find/replace `[Your Name]` with your actual name
+   - Find/replace `Ahmet Mikail Bayindir` with your actual name
    - Add your email, LinkedIn, GitHub username
    - Update dates with actual course completion
 

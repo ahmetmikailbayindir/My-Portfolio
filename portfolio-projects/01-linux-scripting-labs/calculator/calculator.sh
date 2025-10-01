@@ -3,9 +3,9 @@
 ################################################################################
 # Script Name: calculator.sh
 # Description: Command-line calculator with comprehensive input validation
-# Author: [Your Name]
+# Author: Ahmet Mikail Bayindir
 # Course: CST8245 - Linux Scripting
-# Date: [Date]
+# Date: October 2025
 ################################################################################
 
 # Function to display calculator menu

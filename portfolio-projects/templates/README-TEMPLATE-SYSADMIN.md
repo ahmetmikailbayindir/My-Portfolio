@@ -176,6 +176,6 @@ New-ADOrganizationalUnit -Name "IT" -Path "OU=Corporate,DC=company,DC=local"
 
 ---
 
-**Author**: [Your Name]
+**Author**: Ahmet Mikail Bayindir
 **Course**: CST8342 - Windows Administration
-**Date**: [Date]
+**Date**: October 2025

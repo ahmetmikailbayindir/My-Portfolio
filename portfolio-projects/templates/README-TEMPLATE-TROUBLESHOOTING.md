@@ -123,6 +123,6 @@ Contact a technician if:
 ---
 
 **Document Version**: 1.0
-**Last Updated**: [Date]
-**Author**: [Your Name]
+**Last Updated**: October 2025
+**Author**: Ahmet Mikail Bayindir
 **Course**: CST8316 - PC Troubleshooting

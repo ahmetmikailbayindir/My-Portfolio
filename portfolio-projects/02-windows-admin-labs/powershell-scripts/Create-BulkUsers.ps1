@@ -18,9 +18,9 @@
     .\Create-BulkUsers.ps1 -CSVPath ".\users.csv"
 
 .NOTES
-    Author: [Your Name]
+    Author: Ahmet Mikail Bayindir
     Course: CST8342 - Windows Administration
-    Date: [Date]
+    Date: October 2025
     Requires: Active Directory PowerShell module
 #>
 

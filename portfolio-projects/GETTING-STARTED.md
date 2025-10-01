@@ -5,7 +5,7 @@ This guide will help you customize and publish your technical portfolio to GitHu
 ## 📋 Quick Start Checklist
 
 ### Step 1: Personalize Your Portfolio
-- [ ] Replace `[Your Name]` throughout all README files with your actual name
+- [ ] Replace `Ahmet Mikail Bayindir` throughout all README files with your actual name
 - [ ] Add your email and LinkedIn in the main [README.md](README.md)
 - [ ] Update dates in each project (use actual course completion dates)
 - [ ] Add your GitHub username to contact section
@@ -70,7 +70,7 @@ git push -u origin main
 Create a repository named `YOUR-USERNAME` (same as your username) with a README.md:
 
 ```markdown
-# Hi, I'm [Your Name] 👋
+# Hi, I'm Ahmet Mikail Bayindir 👋
 
 ## 🎓 Computer Systems Technician - Networking Student
 **Algonquin College** | Graduating [Month Year]
@@ -149,7 +149,7 @@ Comprehensive showcase of 15+ hands-on labs including Windows Server administrat
 - [ ] Consistent formatting across all docs
 - [ ] Professional tone (not casual)
 - [ ] Code follows best practices
-- [ ] No placeholder text like `[Your Name]`
+- [ ] No placeholder text like `Ahmet Mikail Bayindir`
 
 ### Completeness
 - [ ] Each project has a README
@@ -277,7 +277,7 @@ git pull origin main
 
 Before sharing your portfolio with employers:
 
-- [ ] All `[Your Name]` placeholders replaced
+- [ ] All `Ahmet Mikail Bayindir` placeholders replaced
 - [ ] Contact information is current
 - [ ] No sensitive information (passwords, real company names if from co-op)
 - [ ] All links work (test in incognito mode)

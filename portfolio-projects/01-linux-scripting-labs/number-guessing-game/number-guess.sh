@@ -3,9 +3,9 @@
 ################################################################################
 # Script Name: number-guess.sh
 # Description: Interactive number guessing game with feedback
-# Author: [Your Name]
+# Author: Ahmet Mikail Bayindir
 # Course: CST8245 - Linux Scripting
-# Date: [Date]
+# Date: October 2025
 ################################################################################
 
 # Function to generate random number between 1 and 100

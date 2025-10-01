@@ -3,9 +3,9 @@
 ################################################################################
 # Script Name: parity-counter.sh
 # Description: Counts and displays even and odd numbers from user input
-# Author: [Your Name]
+# Author: Ahmet Mikail Bayindir
 # Course: CST8245 - Linux Scripting
-# Date: [Date]
+# Date: October 2025
 ################################################################################
 
 # Initialize counters
