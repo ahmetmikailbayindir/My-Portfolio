@@ -1,0 +1,67 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Virtual Machine Files (Too large for Git)
+*.vmdk
+*.vdi
+*.vbox
+*.ova
+*.ovf
+*.vmx
+*.iso
+
+# Large Binary Files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+*.old
+
+# Windows Admin Lab - Exclude large exports
+02-windows-admin-labs/**/*.vhdx
+02-windows-admin-labs/**/*.mdf
+
+# Personal Information (Never commit!)
+**/credentials.txt
+**/passwords.txt
+**/.env
+**/config-with-real-ips.txt
+
+# Packet Tracer Backup Files
+*.pkt~
+*.pkz~
+
+# Compressed Archives (if too large)
+# Uncomment if your .pkt files exceed GitHub limits
+# *.zip
+# *.7z
+# *.rar
+
+# Node modules (if you add any web projects)
+node_modules/
+package-lock.json
+
+# Python cache (if you add Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+
+# Output directories
+build/
+dist/
+out/

@@ -1,0 +1,24 @@
+# Private files - do not commit
+gpt discussion.md
+
+# Claude Code files
+.claude/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+*.old

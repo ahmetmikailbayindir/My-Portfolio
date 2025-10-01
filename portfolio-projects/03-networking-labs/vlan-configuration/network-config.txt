@@ -1,0 +1,147 @@
+################################################################################
+# VLAN Configuration Lab
+# Objective: Configure VLANs and inter-VLAN routing using router-on-a-stick
+# Topology: 1 Router, 1 Switch, 4 PCs (2 VLANs)
+################################################################################
+
+#------------------------------------------------------------------------------
+# SWITCH CONFIGURATION (Switch0)
+#------------------------------------------------------------------------------
+
+enable
+configure terminal
+
+# Create VLANs
+vlan 10
+ name Sales
+ exit
+
+vlan 20
+ name IT
+ exit
+
+# Configure access ports for Sales VLAN
+interface range FastEthernet 0/1-2
+ switchport mode access
+ switchport access vlan 10
+ no shutdown
+ exit
+
+# Configure access ports for IT VLAN
+interface range FastEthernet 0/3-4
+ switchport mode access
+ switchport access vlan 20
+ no shutdown
+ exit
+
+# Configure trunk port to router
+interface GigabitEthernet 0/1
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20
+ no shutdown
+ exit
+
+end
+write memory
+
+# Verification commands
+show vlan brief
+show interfaces trunk
+show running-config
+
+#------------------------------------------------------------------------------
+# ROUTER CONFIGURATION (Router0)
+#------------------------------------------------------------------------------
+
+enable
+configure terminal
+
+# Configure router-on-a-stick (sub-interfaces)
+interface GigabitEthernet 0/0
+ no shutdown
+ exit
+
+# Sub-interface for VLAN 10 (Sales)
+interface GigabitEthernet 0/0.10
+ encapsulation dot1Q 10
+ ip address 192.168.10.1 255.255.255.0
+ exit
+
+# Sub-interface for VLAN 20 (IT)
+interface GigabitEthernet 0/0.20
+ encapsulation dot1Q 20
+ ip address 192.168.20.1 255.255.255.0
+ exit
+
+end
+write memory
+
+# Verification commands
+show ip interface brief
+show running-config
+show ip route
+
+#------------------------------------------------------------------------------
+# PC CONFIGURATIONS
+#------------------------------------------------------------------------------
+
+# PC1 (Sales VLAN 10)
+IP Address: 192.168.10.10
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.10.1
+
+# PC2 (Sales VLAN 10)
+IP Address: 192.168.10.11
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.10.1
+
+# PC3 (IT VLAN 20)
+IP Address: 192.168.20.10
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.20.1
+
+# PC4 (IT VLAN 20)
+IP Address: 192.168.20.11
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.20.1
+
+#------------------------------------------------------------------------------
+# TESTING & VERIFICATION
+#------------------------------------------------------------------------------
+
+# From any PC, test connectivity:
+
+# 1. Test connectivity within same VLAN
+ping 192.168.10.11        # From PC1 to PC2 (should work)
+ping 192.168.20.11        # From PC3 to PC4 (should work)
+
+# 2. Test inter-VLAN routing
+ping 192.168.20.10        # From PC1 (VLAN 10) to PC3 (VLAN 20) - should work with routing
+
+# 3. Test default gateway
+ping 192.168.10.1         # From PC1 to default gateway
+ping 192.168.20.1         # From PC3 to default gateway
+
+# 4. Traceroute to see path
+tracert 192.168.20.10     # From PC1 - should show router hop
+
+#------------------------------------------------------------------------------
+# EXPECTED RESULTS
+#------------------------------------------------------------------------------
+
+# ✓ PCs in same VLAN can communicate (Layer 2 switching)
+# ✓ PCs in different VLANs can communicate through router (Layer 3 routing)
+# ✓ Trunk link carries traffic for both VLANs (802.1Q tagging)
+# ✓ Router performs inter-VLAN routing via sub-interfaces
+
+#------------------------------------------------------------------------------
+# TROUBLESHOOTING TIPS
+#------------------------------------------------------------------------------
+
+# If inter-VLAN communication fails:
+# 1. Check trunk configuration: show interfaces trunk
+# 2. Verify VLANs exist: show vlan brief
+# 3. Check sub-interface encapsulation: show running-config interface g0/0
+# 4. Verify IP addresses: show ip interface brief
+# 5. Check PC gateway configuration
+# 6. Ensure physical interface is up: no shutdown on GigabitEthernet 0/0

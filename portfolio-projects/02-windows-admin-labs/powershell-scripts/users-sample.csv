@@ -1,0 +1,6 @@
+FirstName,LastName,Username,Email,Department,OU
+John,Doe,jdoe,jdoe@company.local,IT,"OU=IT,DC=company,DC=local"
+Jane,Smith,jsmith,jsmith@company.local,HR,"OU=HR,DC=company,DC=local"
+Mike,Johnson,mjohnson,mjohnson@company.local,IT,"OU=IT,DC=company,DC=local"
+Sarah,Williams,swilliams,swilliams@company.local,Finance,"OU=Finance,DC=company,DC=local"
+Robert,Brown,rbrown,rbrown@company.local,IT,"OU=IT,DC=company,DC=local"
