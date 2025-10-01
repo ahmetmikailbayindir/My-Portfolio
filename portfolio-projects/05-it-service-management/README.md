@@ -256,11 +256,36 @@ Management Escalation (Major Incidents)
 
 `ITIL Framework` `Incident Management` `Problem Management` `Change Management` `Service Level Agreements` `Process Documentation` `Root Cause Analysis` `KPI Tracking` `Professional Communication` `IT Operations`
 
-## 👤 Author
+## 👤 About This Project
 
-**Your Name**
-Computer Systems Technician - Networking
-Algonquin College
+**Created by**: Ahmet Mikail Bayindir
+**Program**: Computer Systems Technician - Networking
+**Institution**: Algonquin College
+**Course**: CST8206 - IT Service Management
+
+### What I Built
+
+This ITSM documentation framework represents what I learned about managing IT services professionally. I created comprehensive process documentation, case studies, and templates based on ITIL best practices.
+
+### Why This Matters
+
+During my time as an **IT Support Specialist at OISO** (2023-2024), I saw firsthand how poor incident management led to repeated issues and frustrated users. This coursework taught me how to:
+
+- **Structure incident response** instead of reactive firefighting
+- **Document problems properly** so they don't keep happening
+- **Communicate SLAs clearly** to set realistic expectations
+- **Use metrics** to prove service improvement
+
+At **Kelesoglu IT** (2017-2019), we didn't have formal change management - changes were made on the fly, which occasionally broke things. Understanding the ITIL framework showed me why controlled change processes prevent outages.
+
+### Real-World Impact
+
+The major incident case study in this project mirrors a real situation I encountered at OISO when our file server crashed during a critical period. Having a documented incident response process would have:
+- Reduced our resolution time from 4 hours to under 1 hour
+- Improved communication with stakeholders
+- Prevented the same issue from recurring
+
+This isn't just theory - it's how professional IT organizations actually work.
 
 ## 📄 License
 
