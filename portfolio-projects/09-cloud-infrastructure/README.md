@@ -627,10 +627,6 @@ This is how DevOps engineers deploy production systems at real companies.
 
 ## 🔗 Connection to My Experience & Courses
 
-**From CST8248 (Cloud Infrastructure Administration)**:
-- Learned AWS services, cloud architectures, scalability principles
-- This project applies those concepts to a production deployment
-
 **From my work at The Home Store**:
 - Deployed WordPress on AWS EC2 with Docker and NGINX
 - Managed DNS records and SSL during site migrations
@@ -659,7 +655,6 @@ This is how DevOps engineers deploy production systems at real companies.
 
 **Author**: Ahmet Mikail Bayindir
 **Program**: Computer Systems Technician - Networking, Algonquin College
-**Course**: CST8248 - Cloud Infrastructure Administration
 **Project Type**: Production cloud deployment with DevOps practices
 **Real Experience**: Builds on actual AWS deployments at The Home Store
 **Time to Build**: 2 weeks (infrastructure + CI/CD + testing + documentation)

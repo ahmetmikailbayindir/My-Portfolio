@@ -194,7 +194,6 @@ Unlike typical students, I bring:
 ---
 
 ### [08 - Network Security Lab](08-network-security-lab/) 🔒
-**Course**: CST8323 (Cyber & Network Security)
 **Skills**: Firewall configuration, IDS/IPS, security monitoring, threat detection
 
 **What I Built**:
@@ -212,7 +211,6 @@ Unlike typical students, I bring:
 ---
 
 ### [09 - Cloud Infrastructure Deployment](09-cloud-infrastructure/) ☁️
-**Course**: CST8248 (Cloud Infrastructure Administration)
 **Skills**: AWS, Terraform, Docker, CI/CD, DevOps
 
 **What I Built**:

@@ -385,10 +385,6 @@ This is the difference between **security theater** (just having a firewall) and
 
 ## 🔗 Connection to My Experience & Courses
 
-**From CST8323 (Cyber & Network Security)**:
-- Learned threat vectors, defense strategies, security frameworks
-- This lab applies those concepts to a working environment
-
 **From my work at OISO**:
 - We had basic firewall rules but no IDS
 - I experienced the "reactive security" problem - finding out about issues after they happened
@@ -417,7 +413,6 @@ This is the difference between **security theater** (just having a firewall) and
 
 **Author**: Ahmet Mikail Bayindir
 **Program**: Computer Systems Technician - Networking, Algonquin College
-**Course**: CST8323 - Cyber & Network Security
 **Project Type**: Practical security implementation
 **Skills Applied**: Firewall, IDS, security monitoring, threat detection
 **Time to Build**: 2 weeks (setup + configuration + testing + documentation)

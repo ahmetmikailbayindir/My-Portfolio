@@ -156,8 +156,6 @@ Algonquin College | Ottawa, ON | 2024 - Present
 - CST8371 - Enterprise Networking Fundamentals
 - CST8342 - Windows Enterprise Administration
 - CST8245 - Linux Scripting
-- CST8323 - Cyber & Network Security
-- CST8248 - Cloud Infrastructure Administration
 - CST8246 - Network Services Administration
 - CST8206 - IT Service Management
 - CST8316 - PC Troubleshooting
