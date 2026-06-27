@@ -51,9 +51,9 @@ Professional resume detailing my:
 ## 🎯 About Me
 
 ### Current Focus
-🚀 **Founder & Director** - CognaWorks Inc. (March 2026 - Present)
-🎓 **Student** - Computer Systems Technician (Networking) @ Algonquin College (expected December 2026, co-op track)
-📚 Learning: Advanced networking, security, cloud infrastructure, and automation
+- 🚀 **Founder & Director** - CognaWorks Inc. (March 2026 - Present)
+- 🎓 **Student** - Computer Systems Technician (Networking) @ Algonquin College (expected December 2026, co-op track)
+- 📚 Learning: Advanced networking, security, cloud infrastructure, and automation
 
 ### Professional Experience
 
@@ -80,12 +80,12 @@ Professional resume detailing my:
 
 ### Core Competencies
 
-**Networking**: TCP/IP, VLANs, routing and switching (Cisco track), DNS, DHCP, firewalls, network monitoring, Wireshark, VPN, Cisco Packet Tracer
-**Systems**: Windows Server 2019/2022/2025 (AD, GPO, Exchange via Microsoft 365), Linux (RHEL, CentOS/Rocky, Ubuntu, Raspberry Pi OS), macOS
-**Cloud & Virtualization**: AWS (EC2, VPC), Azure, Docker, Kubernetes, VMware, VirtualBox, Hyper-V
-**Security**: Firewall configuration, network security, structured cabling, CCTV/access control
-**Scripting**: Python, bash, PowerShell, SQL, automation
-**Web & Services**: Nginx, Apache, FastAPI, Node.js, React, React Native, Shopify, Square POS
+- **Networking**: TCP/IP, VLANs, routing and switching (Cisco track), DNS, DHCP, firewalls, network monitoring, Wireshark, VPN, Cisco Packet Tracer
+- **Systems**: Windows Server 2019/2022/2025 (AD, GPO, Exchange via Microsoft 365), Linux (RHEL, CentOS/Rocky, Ubuntu, Raspberry Pi OS), macOS
+- **Cloud & Virtualization**: AWS (EC2, VPC), Azure, Docker, Kubernetes, VMware, VirtualBox, Hyper-V
+- **Security**: Firewall configuration, network security, structured cabling, CCTV/access control
+- **Scripting**: Python, bash, PowerShell, SQL, automation
+- **Web & Services**: Nginx, Apache, FastAPI, Node.js, React, React Native, Shopify, Square POS
 
 ---
 
