@@ -15,11 +15,11 @@ Computer Systems Technician (Networking) student at Algonquin College, Ottawa, c
 ## Education
 
 **College Diploma, Computer Systems Technician (Networking)**
-Algonquin College, Ottawa, ON | May 2024 to December 2026 (expected), co-op track
+- Algonquin College, Ottawa, ON | May 2024 to December 2026 (expected), co-op track
 - Dean's Honours List, 2025 Winter Term
 
 **CompTIA A+ and Network+ certification-track coursework**
-Algonquin College / self-study (not yet certified)
+- Algonquin College / self-study (not yet certified)
 
 ---
 

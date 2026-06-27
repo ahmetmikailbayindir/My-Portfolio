@@ -143,8 +143,8 @@ Collection of network automation scripts: subnet calculator, port scanner, log a
 ## 🎓 Education
 
 **College Diploma, Computer Systems Technician (Networking)**
-Algonquin College | Ottawa, ON | May 2024 to December 2026 (expected), co-op track
-Dean's Honours List, 2025 Winter Term
+- Algonquin College | Ottawa, ON | May 2024 to December 2026 (expected), co-op track
+- Dean's Honours List, 2025 Winter Term
 
 **Relevant Coursework**:
 - CST8371 - Enterprise Networking Fundamentals

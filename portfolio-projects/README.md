@@ -8,12 +8,12 @@ This portfolio contains projects, lab work, and documentation I've created while
 
 ## 👋 About Me
 
-**Name**: Ahmet Mikail Bayindir
-**Program**: Computer Systems Technician - Networking (2024-Present)
-**Institution**: Algonquin College
-**Email**: ahmetmikailbayindir@protonmail.com
-**LinkedIn**: [linkedin.com/in/ahmetmikailbayindir](https://www.linkedin.com/in/ahmetmikailbayindir/)
-**GitHub**: [github.com/ahmetmikailbayindir](https://github.com/ahmetmikailbayindir)
+- **Name**: Ahmet Mikail Bayindir
+- **Program**: Computer Systems Technician - Networking (2024-Present)
+- **Institution**: Algonquin College
+- **Email**: ahmetmikailbayindir@protonmail.com
+- **LinkedIn**: [linkedin.com/in/ahmetmikailbayindir](https://www.linkedin.com/in/ahmetmikailbayindir/)
+- **GitHub**: [github.com/ahmetmikailbayindir](https://github.com/ahmetmikailbayindir)
 
 Hi! I'm Ahmet, a Computer Systems Technician (Networking) student at Algonquin College, Ottawa (diploma expected December 2026, co-op track), with practical IT experience spanning help desk support, networking, and web systems.
 
@@ -383,8 +383,8 @@ Through this portfolio, I demonstrate:
 ## 🎓 Education & Certifications
 
 **Current Program**:
-Computer Systems Technician - Networking
-Algonquin College
+- Computer Systems Technician - Networking
+- Algonquin College
 
 **Relevant Coursework**:
 - CST8245: Linux Scripting
@@ -458,15 +458,15 @@ Each project folder contains:
 **Full Transparency**: I want to be honest about how this portfolio was created.
 
 ### What's Real:
-✅ **My actual coursework**: All projects reflect labs and assignments from my CST program at Algonquin College
-✅ **My real experience**: The work history, troubleshooting scenarios, and technical context are authentic
-✅ **My learning**: The "What I Learned" sections reflect genuine insights from my studies
-✅ **My CognaWorks work**: Software I am actually building (data analytics, a Raspberry Pi 5 prototype, and a React Native app)
+- ✅ **My actual coursework**: All projects reflect labs and assignments from my CST program at Algonquin College
+- ✅ **My real experience**: The work history, troubleshooting scenarios, and technical context are authentic
+- ✅ **My learning**: The "What I Learned" sections reflect genuine insights from my studies
+- ✅ **My CognaWorks work**: Software I am actually building (data analytics, a Raspberry Pi 5 prototype, and a React Native app)
 
 ### What's Reconstructed:
-🔄 **Code recreated from memory**: Since we delete course files each semester, I've rewritten example scripts based on what I learned
-🔄 **Documentation enhanced**: I've documented these projects more thoroughly than required for class to demonstrate professional documentation skills
-🔄 **Templates provided**: Some sections include templates for common tasks I'd use in real IT work
+- 🔄 **Code recreated from memory**: Since we delete course files each semester, I've rewritten example scripts based on what I learned
+- 🔄 **Documentation enhanced**: I've documented these projects more thoroughly than required for class to demonstrate professional documentation skills
+- 🔄 **Templates provided**: Some sections include templates for common tasks I'd use in real IT work
 
 ### Why This Approach?
 I'm documenting my learning journey professionally because:
