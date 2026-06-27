@@ -2,9 +2,13 @@
 
 > Computer Systems Technician (Networking) | IT Support and Systems Administration | Networking
 
+[![Live Site](https://img.shields.io/badge/Live_Site-View_Portfolio-38bdf8?style=for-the-badge)](https://ahmetmikailbayindir.github.io/My-Portfolio/)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmetmikailbayindir-blue)](https://www.linkedin.com/in/ahmetmikailbayindir/)
 [![Email](https://img.shields.io/badge/Email-ahmetmikailbayindir%40protonmail.com-red)](mailto:ahmetmikailbayindir@protonmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-ahmetmikailbayindir-black)](https://github.com/ahmetmikailbayindir)
+
+**🌐 [View the live portfolio site →](https://ahmetmikailbayindir.github.io/My-Portfolio/)**
 
 ---
 
