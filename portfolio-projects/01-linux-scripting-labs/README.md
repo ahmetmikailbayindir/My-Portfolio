@@ -56,7 +56,7 @@ These scripts taught me the fundamentals of Linux automation:
 
 At **Kelesoglu IT** (2017-2019), I did a lot of repetitive tasks manually - resetting passwords, checking disk space, creating user accounts. These Bash scripting skills would have saved me hours every week. Now I understand how to automate those tasks properly.
 
-The calculator script's division-by-zero handling taught me an important lesson: **never trust user input**. This mindset carried over to my work at **OISO**, where I always validated form inputs to prevent errors.
+The calculator script's division-by-zero handling taught me an important lesson: **never trust user input**. This mindset carries over to real IT work and coursework, where validating inputs helps prevent errors before they happen.
 
 ## 📸 Screenshots
 

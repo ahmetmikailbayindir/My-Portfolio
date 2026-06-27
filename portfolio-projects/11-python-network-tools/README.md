@@ -470,14 +470,14 @@ if __name__ == "__main__":
 ### Real-World Insights That Changed My Approach
 
 - **Automation eliminates human error** - At Kelesoglu IT, I manually calculated subnets for new network segments. Mistakes meant redoing IP assignments. Automation makes it foolproof
-- **Threading is essential for network tools** - First version scanned ports sequentially. Unusably slow. Threading made it 10x faster. Network tools MUST be concurrent
+- **Threading is essential for network tools** - First version scanned ports sequentially. Unusably slow. Threading made it much faster. Network tools MUST be concurrent
 - **Error handling makes or breaks tools** - Network conditions are unpredictable. Tools that crash on timeout are useless. Graceful failure handling is critical
 - **Never hardcode credentials** - First version had SSH passwords in code. Terrible security. Environment variables + SSH keys solved it properly
 - **Self-documenting CLIs** - `argparse` generates help text automatically. Users (including future me) need clear usage instructions
 
 ### Why This Project Matters to Me
 
-**At OISO** (2023-2024) and **Kelesoglu IT** (2017-2019), I performed these tasks manually:
+At **Kelesoglu IT** (2017-2019), I performed these tasks manually:
 - **Subnet calculations** - Used online calculators or did math on paper. Slow and error-prone
 - **Port scanning** - Manually tried connections or used nmap without understanding what it did
 - **Log analysis** - Grepped through logs line-by-line looking for patterns. Missed things
@@ -516,8 +516,8 @@ These Python tools automate what I used to do manually. More importantly, **buil
 - Python automates what I'd otherwise do manually
 
 **From my IT experience**:
-- At OISO/Kelesoglu, I troubleshot networks manually
-- These tools would have made my job 10x faster
+- At Kelesoglu IT, I troubleshot networks manually
+- These tools would have made my job much faster
 
 ## 🏷️ Skills Demonstrated
 

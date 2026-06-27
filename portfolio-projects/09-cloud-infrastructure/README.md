@@ -632,8 +632,8 @@ This is how DevOps engineers deploy production systems at real companies.
 - Managed DNS records and SSL during site migrations
 - This formalizes that ad-hoc experience with proper IaC and CI/CD
 
-**From ReliefSense project**:
-- Built full-stack application that could be deployed with this infrastructure
+**From my work at CognaWorks Inc. (Founder/Director, Ottawa)**:
+- Built full-stack applications that could be deployed with this infrastructure: a procurement-data analysis tool (Python, FastAPI, DuckDB, SQL, with a bounded AI integration), control software for a Raspberry Pi 5 prototype on Linux (GPIO/I2C, fault handling, tests), and a React Native mobile app with SQLite
 - Understanding both dev and ops sides makes me a better systems technician
 
 ## 🏷️ Skills Demonstrated

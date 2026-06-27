@@ -6,7 +6,7 @@
 
 A practical implementation of DNS and DHCP services on Linux, demonstrating how networks automatically assign IP addresses and resolve domain names. These are fundamental services that every network relies on.
 
-**Why this matters**: At OISO and The Home Store, I worked with DNS configurations for migrations and CDN setup. This lab shows I understand how to BUILD and MANAGE these services from scratch, not just configure them.
+**Why this matters**: At The Home Store, I worked with DNS, hosting, and domain configuration for a Shopify storefront. This lab shows I understand how to BUILD and MANAGE these services from scratch, not just configure them.
 
 ## 🎯 Lab Objectives
 
@@ -422,13 +422,13 @@ sudo systemctl stop isc-dhcp-server
 ### Why This Project Matters to Me
 
 **At The Home Store** (2022-2023), I managed DNS records during site migrations:
-- Moving from Shopify to Magento required DNS changes
+- Setting up and migrating the Shopify storefront (with Square POS) required DNS changes
 - SSL certificate validation needed proper DNS records
 - I knew enough to change A records, but didn't understand **how DNS actually worked**
 
 This lab showed me the full picture - authoritative servers, zone files, caching, TTL propagation. Now I could **build and manage** a DNS infrastructure, not just edit records in a web UI.
 
-**At OISO** (2023-2024), DNS and DHCP were critical services, but I never saw how they were configured. When issues occurred, I relied on senior admins. This lab shows I can now:
+In many environments, DNS and DHCP are critical services that get treated as a black box: they just work until they don't, and configuration stays hidden behind senior admins or vendor tooling. This lab shows I can now:
 - Configure primary/secondary DNS servers from scratch
 - Set up DHCP with proper scopes and failover
 - Troubleshoot resolution issues systematically
@@ -457,13 +457,9 @@ These are **foundational network services**. Every company network needs them. U
 - This lab implements production-ready services with failover
 
 **From my work at The Home Store**:
-- Managed DNS records during Shopify/Magento migrations
+- Managed DNS records during Shopify storefront migrations
 - Configured SSL certificates (requires DNS understanding)
 - This lab shows I can BUILD these services, not just use them
-
-**From my work at OISO**:
-- Assisted with DNS administration for improved system reliability
-- This demonstrates deeper understanding of how DNS actually works
 
 ## 🏷️ Skills Demonstrated
 

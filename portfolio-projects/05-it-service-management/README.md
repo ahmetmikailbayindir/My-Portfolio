@@ -269,7 +269,7 @@ This ITSM documentation framework represents what I learned about managing IT se
 
 ### Why This Matters
 
-During my time as an **IT Support Specialist at OISO** (2023-2024), I saw firsthand how poor incident management led to repeated issues and frustrated users. This coursework taught me how to:
+This coursework showed me how poor incident management can lead to repeated issues and frustrated users. It taught me how to:
 
 - **Structure incident response** instead of reactive firefighting
 - **Document problems properly** so they don't keep happening
@@ -280,10 +280,10 @@ At **Kelesoglu IT** (2017-2019), we didn't have formal change management - chang
 
 ### Real-World Impact
 
-The major incident case study in this project mirrors a real situation I encountered at OISO when our file server crashed during a critical period. Having a documented incident response process would have:
-- Reduced our resolution time from 4 hours to under 1 hour
-- Improved communication with stakeholders
-- Prevented the same issue from recurring
+The major incident case study in this project illustrates a common scenario, such as a file server crashing during a critical period. Having a documented incident response process would help to:
+- Reduce resolution time
+- Improve communication with stakeholders
+- Prevent the same issue from recurring
 
 This isn't just theory - it's how professional IT organizations actually work.
 

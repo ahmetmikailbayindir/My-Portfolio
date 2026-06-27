@@ -6,7 +6,7 @@
 
 A comprehensive Bash-based monitoring system that tracks server health metrics and sends alerts when thresholds are exceeded. This is the kind of tool that prevents small issues from becoming major outages.
 
-**Why I built this**: At OISO, we had servers go down because no one noticed disk space filling up. This monitoring system would have prevented that. It's proactive IT - catching problems before users notice them.
+**Why I built this**: A common IT failure is servers going down because no one notices disk space filling up. This monitoring system prevents that. It's proactive IT - catching problems before users notice them.
 
 ## 🎯 Problem Statement
 
@@ -422,16 +422,16 @@ systemctl stop apache2  # Stop service to trigger alert
 
 ### Real-World Insights I Gained
 
-- **Monitoring is the difference between reactive and proactive IT** - At OISO, we discovered problems when users complained. With monitoring, I would catch issues before users notice
+- **Monitoring is the difference between reactive and proactive IT** - Without monitoring, problems get discovered only when users complain. With monitoring, issues are caught before users notice
 - **Context transforms alerts** - Early versions just said "CPU high". Useless. Adding "top 5 processes" meant I knew immediately what was causing it
 - **False positives destroy credibility** - First version alerted on every tiny spike. I learned to use **sustained** thresholds (high for 5+ minutes) not instant triggers
 - **Evolution over perfection** - Started with just disk monitoring. Added CPU, memory, services, security as I saw real needs. Trying to build everything at once would have failed
 
 ### Why This Project Matters to Me
 
-**At OISO** (2023-2024), our file server ran out of disk space completely. Email stopped working. Users couldn't access shared drives. It took 2 hours before someone noticed and called IT.
+A classic preventable failure: a file server runs out of disk space completely, email stops working, and users cannot access shared drives, often going unnoticed for hours before anyone calls IT.
 
-This monitoring script would have alerted me when disk hit 85% - probably days earlier. I would have had time to clean up logs, archive old files, or add storage. **That outage was completely preventable.**
+This monitoring script would alert me when disk hits 85%, probably days earlier. That gives time to clean up logs, archive old files, or add storage. **That kind of outage is completely preventable.**
 
 **At Kelesoglu IT** (2017-2019), I responded to "server is slow" tickets after users already noticed. With this monitoring system, I would have seen:
 - CPU spike from runaway process → kill it before users notice
@@ -462,7 +462,7 @@ This is what **professional IT operations** looks like - catching problems befor
 
 ## 🔗 Connection to My Experience
 
-**At OISO**: We had a file server run out of disk space, causing email delivery failures. Users couldn't send/receive for 2 hours before IT noticed. This monitoring system would have alerted us when disk hit 85%, giving time to clean up before the outage.
+**General IT scenario**: A file server running out of disk space can cause email delivery failures, leaving users unable to send or receive until someone notices. This monitoring system would alert on disk usage hitting 85%, giving time to clean up before the outage.
 
 **At Kelesoglu IT**: I responded to "server is slow" tickets reactively. With proactive monitoring, I could have seen CPU spikes or memory leaks developing and fixed them before users complained.
 

@@ -141,7 +141,7 @@ This script solves the common IT problem of:
 - Setting up lab environments
 - Disaster recovery user restoration
 
-**Time Savings**: Creating 50 users manually takes ~2 hours. This script completes it in under 2 minutes.
+**Time Savings**: Creating users manually is slow and error-prone. This script automates the process and completes it in a fraction of the time.
 
 ## 🧪 Testing Checklist
 
@@ -151,7 +151,7 @@ This script solves the common IT problem of:
 - [x] Non-existent OU (fallback test)
 - [x] Invalid CSV path (error handling)
 - [x] Empty CSV file
-- [x] Large dataset (100+ users)
+- [x] Large dataset (many users)
 
 ## 🎯 Possible Enhancements
 

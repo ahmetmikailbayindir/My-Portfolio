@@ -6,7 +6,7 @@
 
 A comprehensive network security lab demonstrating defense-in-depth principles through firewall configuration, intrusion detection, and security monitoring. This project simulates protecting a small business network from common attack vectors.
 
-**Why this matters**: At OISO, we didn't have dedicated security monitoring - if someone tried to breach our network, we'd only know after the damage was done. This lab shows I understand proactive network security.
+**Why this matters**: Many small organizations lack dedicated security monitoring, so a network breach is only discovered after the damage is done. This lab shows I understand proactive network security.
 
 ## 🎯 Security Objectives
 
@@ -282,21 +282,20 @@ sudo hping3 -S -p 80 --flood 192.168.50.10
 
 | Attack Type | Detection Time | Block Success | False Positives |
 |-------------|---------------|---------------|-----------------|
-| Port Scan | <1 second | ✅ 100% | 0% |
-| SSH Brute Force | 3 attempts | ✅ Blocked at threshold | 0% |
-| SQL Injection | Immediate | ✅ 98% (2% novel patterns) | 1% |
-| DDoS (SYN Flood) | <5 seconds | ✅ Rate limited | 0% |
-| Malware C2 | Variable | ✅ 85% (if signature exists) | 3% |
+| Port Scan | <1 second | ✅ Detected | Low |
+| SSH Brute Force | 3 attempts | ✅ Blocked at threshold | Low |
+| SQL Injection | Immediate | ✅ Detected (some novel patterns may evade) | Low |
+| DDoS (SYN Flood) | <5 seconds | ✅ Rate limited | Low |
+| Malware C2 | Variable | ✅ Detected (if signature exists) | Low |
 
-### Alert Volume (24-hour test period)
+### Alert Volume (test period)
 
-- **Total alerts**: 1,247
-- **Critical**: 12 (SSH brute force, SQL injection attempts)
-- **High**: 89 (port scans, suspicious DNS)
-- **Medium**: 346 (blocked countries, policy violations)
-- **Low**: 800 (informational, denied default traffic)
+- **Critical**: SSH brute force, SQL injection attempts
+- **High**: port scans, suspicious DNS
+- **Medium**: blocked countries, policy violations
+- **Low**: informational, denied default traffic
 
-**False Positive Rate**: 4.2% (mostly legitimate traffic flagged)
+**False Positives**: A small number of legitimate traffic patterns were flagged and required tuning.
 
 ## 🔒 Security Hardening Checklist
 
@@ -356,7 +355,7 @@ sudo hping3 -S -p 80 --flood 192.168.50.10
 
 ### Why This Project Matters to Me
 
-**At OISO** (2023-2024), we had basic firewall rules but **no intrusion detection**. If someone was probing our network or attempting brute force, we wouldn't know unless they succeeded and caused damage.
+Many small networks rely on basic firewall rules but have **no intrusion detection**. If someone is probing the network or attempting brute force, it goes unnoticed unless the attacker succeeds and causes visible damage.
 
 This lab shows I understand **proactive security** - detecting and stopping threats in real-time, not investigating after the breach.
 
@@ -385,9 +384,9 @@ This is the difference between **security theater** (just having a firewall) and
 
 ## 🔗 Connection to My Experience & Courses
 
-**From my work at OISO**:
-- We had basic firewall rules but no IDS
-- I experienced the "reactive security" problem - finding out about issues after they happened
+**From my IT support experience**:
+- Worked with environments that had basic firewall rules but no IDS
+- Saw the "reactive security" problem firsthand - finding out about issues after they happened
 - This lab shows I can implement "proactive security" - detecting threats in real-time
 
 **From my AWS/Docker experience**:

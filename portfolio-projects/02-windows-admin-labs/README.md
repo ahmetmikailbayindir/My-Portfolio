@@ -45,7 +45,7 @@ This repository showcases practical Windows Server administration skills develop
 ## 🚀 Key Accomplishments
 
 - ✅ Designed and deployed Active Directory forest with 3 OUs
-- ✅ Created 50+ user accounts using PowerShell automation
+- ✅ Created user accounts in bulk using PowerShell automation
 - ✅ Configured Group Policies for security and desktop management
 - ✅ Set up Exchange Server with multiple mailboxes
 - ✅ Implemented SPF records for email authentication
@@ -60,19 +60,19 @@ This course transformed how I think about Windows administration:
 - **Group Policy for control** - GPOs let me enforce security and configuration across hundreds of machines from one place
 - **Exchange Server complexity** - Email isn't simple - I learned about protocols, authentication, and spam protection
 - **DNS is everything** - Almost every service depends on DNS working correctly, so I mastered forward zones, reverse zones, and record types
-- **PowerShell automation** - Creating 50 users manually takes hours; with PowerShell it takes seconds
+- **PowerShell automation** - Creating users manually takes a long time; with PowerShell it takes seconds
 - **Documentation discipline** - I learned to document everything because I'll forget the details later
 
 ### Why This Matters
 
-At **OISO** (2023-2024), we managed user accounts through Active Directory. Understanding AD structure helped me troubleshoot permission issues faster and create proper security groups instead of giving everyone admin rights.
+In this coursework, I managed user accounts through Active Directory. Understanding AD structure helped me troubleshoot permission issues faster and create proper security groups instead of giving everyone admin rights.
 
-The PowerShell bulk user creation script directly relates to onboarding new employees. At **Kelesoglu IT** (2017-2019), we created accounts manually one-by-one - it was tedious and error-prone. Now I know how to automate it properly with CSV imports and parameter validation.
+The PowerShell bulk user creation script directly relates to onboarding new employees. At **Kelesoglu IT & Security Systems** (2017-2019), we created accounts manually one-by-one - it was tedious and error-prone. Now I know how to automate it properly with CSV imports and parameter validation.
 
 ### Real-World Impact
 
-The Group Policy knowledge saved me at OISO when I needed to:
-- Deploy software to 50+ workstations simultaneously
+The Group Policy knowledge proved valuable when I needed to:
+- Deploy software to multiple workstations simultaneously
 - Enforce password policies across the organization
 - Configure desktop wallpapers and security settings centrally
 
@@ -102,7 +102,7 @@ Each project folder contains:
 
 I built a complete Windows enterprise environment from scratch:
 - **Active Directory forest** with proper OU structure (not just dumping everything in Users)
-- **50+ user accounts** created via PowerShell automation (with proper error handling)
+- **User accounts** created in bulk via PowerShell automation (with proper error handling)
 - **Group Policies** for security, desktop management, and software deployment
 - **Exchange Server** with mailboxes, protocols, and SPF records
 - **DNS infrastructure** supporting all services with proper forward/reverse zones

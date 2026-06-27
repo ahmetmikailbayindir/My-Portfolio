@@ -1,6 +1,6 @@
 # 💼 Ahmet Mikail Bayindir - Portfolio
 
-> Computer Systems Technician - Networking | IT Support Specialist | Network & System Administration
+> Computer Systems Technician (Networking) | IT Support and Systems Administration | Networking
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmetmikailbayindir-blue)](https://www.linkedin.com/in/ahmetmikailbayindir/)
 [![Email](https://img.shields.io/badge/Email-ahmetmikailbayindir%40protonmail.com-red)](mailto:ahmetmikailbayindir@protonmail.com)
@@ -10,7 +10,7 @@
 
 ## 👋 Welcome
 
-Hi! I'm **Ahmet Mikail Bayindir**, a Computer Systems Technician - Networking student at Algonquin College with hands-on IT experience in system administration, networking, and technical support.
+Hi! I'm **Ahmet Mikail Bayindir**, a Computer Systems Technician (Networking) student at Algonquin College, Ottawa (diploma expected December 2026, co-op track), with hands-on IT experience in system administration, networking, and technical support.
 
 This repository showcases my technical portfolio, including coursework projects, lab work, and documentation that demonstrate my skills in:
 - 🌐 Networking & infrastructure design
@@ -39,8 +39,8 @@ Comprehensive collection of 11 technical projects covering:
 ### **[📄 Resume](resume.md)**
 
 Professional resume detailing my:
-- Work experience at OISO, The Home Store, and Kelesoglu IT
-- Technical skills and certifications
+- Work experience at CognaWorks Inc., The Home Store, and Kelesoglu IT & Security Systems
+- Technical skills and certification-track coursework
 - Academic background and coursework
 - Projects and accomplishments
 
@@ -51,60 +51,54 @@ Professional resume detailing my:
 ## 🎯 About Me
 
 ### Current Focus
-🚀 **Founder & Builder** - ReliefSense Platform (Jan 2025 - Present)
-🎓 **Student** - Computer Systems Technician - Networking @ Algonquin College (2024-Present)
+🚀 **Founder & Director** - CognaWorks Inc. (March 2026 - Present)
+🎓 **Student** - Computer Systems Technician (Networking) @ Algonquin College (expected December 2026, co-op track)
 📚 Learning: Advanced networking, security, cloud infrastructure, and automation
 
 ### Professional Experience
 
-**Founder & Builder** @ ReliefSense (Jan 2025 - Present)
-- Building offline-first humanitarian agriculture platform for low-connectivity environments
-- Tech: React, Flask, SQLite, Raspberry Pi | **[→ See full project details](#reliefsense---humanitarian-agriculture-platform-)**
+**Founder & Director / Entrepreneurial Co-op Student** @ CognaWorks Inc., Ottawa, ON (March 2026 - Present)
+- Building software across data analytics, embedded systems, and mobile productivity
+- A procurement-data analysis tool (Python, FastAPI, DuckDB, SQL, with a bounded AI integration)
+- Control software for a Raspberry Pi 5 prototype on Linux (GPIO/I2C, automated fault handling, tests)
+- A React Native mobile app with SQLite
 
-**IT Support Specialist** @ Ottawa Immigrant Services Organization (2023-2024)
-- Managed multi-OS environments (Windows, macOS, Linux)
-- Administered Active Directory and LDAP identity services
-- Handled DNS administration and server management
-- Achieved 95% ticket resolution within SLA
+**E-Commerce Web and Digital Marketing Contractor** @ The Home Store, Ottawa, ON (May 2022 - January 2023)
+- Built a Shopify storefront end to end with Square POS
+- Handled hosting, domain, and integration work
+- Ran Google Ads and Meta advertising, with Google Analytics, SEO, Google Merchant Center, and Facebook and Instagram
 
-**E-Commerce Digital Marketing Manager** @ The Home Store (2022-2023)
-- Configured CDN performance rules in Akamai
-- Managed DNS records and SSL configurations during site migrations
-- Deployed WordPress on AWS with Docker and NGINX
+**Web Developer and Cloud Infrastructure** @ Freelance / Self-employed, Remote (November 2020 - September 2021)
+- AWS EC2 with Nginx and Apache reverse proxy, Docker on Ubuntu
+- AWS VPC networking (subnets, NAT/internet gateways, route tables)
+- A customized WordPress site (a science and technology news aggregator), with Google Analytics and Google Ads
 
-**Help Desk & Security Systems Technician** @ Kelesoglu IT (2017-2019)
-- Provided comprehensive IT support with 95% first-time resolution rate
-- Maintained LAN/WAN networks with 99% uptime
-- Set up and configured corporate workstations
+**Help Desk & Security Systems Technician** @ Kelesoglu IT & Security Systems, Aksaray, Turkey (July 2017 - March 2019)
+- PC and peripheral repair, imaging, and on-site customer support
+- CCTV and access-control install, structured cabling
+- LAN/WAN and IP-CCTV troubleshooting
 
 ### Core Competencies
 
-**Networking**: Cisco IOS, VLANs, routing protocols (OSPF, EIGRP), subnetting, pfSense, network design
-**Systems**: Windows Server (AD, GPO, Exchange), Linux (Ubuntu, CentOS, Debian), macOS
-**Cloud & DevOps**: AWS (EC2, S3, CloudFront, RDS), Docker, Terraform, CI/CD (GitHub Actions)
-**Security**: Firewall configuration, IDS/IPS (Snort), network monitoring, security hardening
-**Scripting**: Python, Bash, PowerShell, automation tools
-**Services**: DNS (BIND9), DHCP, web servers (NGINX, Apache), monitoring (Nagios)
+**Networking**: TCP/IP, VLANs, routing and switching (Cisco track), DNS, DHCP, firewalls, network monitoring, Wireshark, VPN, Cisco Packet Tracer
+**Systems**: Windows Server 2019/2022/2025 (AD, GPO, Exchange via Microsoft 365), Linux (RHEL, CentOS/Rocky, Ubuntu, Raspberry Pi OS), macOS
+**Cloud & Virtualization**: AWS (EC2, VPC), Azure, Docker, Kubernetes, VMware, VirtualBox, Hyper-V
+**Security**: Firewall configuration, network security, structured cabling, CCTV/access control
+**Scripting**: Python, bash, PowerShell, SQL, automation
+**Web & Services**: Nginx, Apache, FastAPI, Node.js, React, React Native, Shopify, Square POS
 
 ---
 
 ## 🚀 Featured Projects
 
-### [ReliefSense - Humanitarian Agriculture Platform](https://ahmetmikailbayindir.github.io/ReliefSense/) 🌍
-**Current Project (Jan 2025 - Present)** | **Tech Stack:** React, Flask, SQLite, Vite, TailwindCSS, Raspberry Pi
+### CognaWorks Inc. - Software Across Data, Embedded Systems, and Mobile 🛠️
+**Current Work (March 2026 - Present)** | **Tech Stack:** Python, FastAPI, DuckDB, SQL, Raspberry Pi 5, Linux, React Native, SQLite
 
-**The Problem:** Food security shouldn't depend on stable internet. In many communities, internet access is unreliable — but food security and resource management can't wait.
+As Founder & Director (Entrepreneurial Co-op Student), I am building software across three areas:
 
-**The Solution:** Offline-first agriculture management platform with sync capability, designed for refugee camps, disaster relief zones, and low-connectivity environments. Runs on Raspberry Pi hardware for affordable field deployment.
-
-**Key Features:**
-- ✅ Offline-first architecture with automatic sync when connectivity returns
-- ✅ Real-time dashboards for crop health, water usage, and resource planning
-- ✅ IoT-ready integration for environmental sensors (temperature, humidity, CO₂)
-- ✅ Multi-language support (English, Arabic, Turkish) with right-to-left (RTL) layout
-- ✅ Built for resilience: works when internet doesn't
-
-**[→ Live Demo (Public Showcase)](https://ahmetmikailbayindir.github.io/ReliefSense/)** | **[→ GitHub Repository](https://github.com/ahmetmikailbayindir/ReliefSense)**
+- **Procurement-data analysis tool**: Python, FastAPI, DuckDB, and SQL, with a bounded AI integration
+- **Raspberry Pi 5 control software**: a prototype on Linux using GPIO/I2C, with automated fault handling and tests
+- **Mobile productivity app**: React Native with SQLite
 
 ---
 
@@ -134,23 +128,23 @@ Collection of network automation scripts: subnet calculator, port scanner, log a
 
 | Category | Technologies |
 |----------|-------------|
-| **Operating Systems** | Windows Server 2019/2022, Linux (Ubuntu, CentOS, Debian), macOS |
-| **Networking** | Cisco IOS, VLANs, OSPF, EIGRP, TCP/IP, subnetting, pfSense, QoS |
-| **Cloud Platforms** | AWS (EC2, S3, CloudFront, RDS, Route 53), Akamai CDN |
-| **Virtualization** | VMware Workstation, Hyper-V, Proxmox, Docker |
-| **Security** | Firewall configuration, Snort IDS/IPS, DNSSEC, security hardening |
-| **Automation** | Bash scripting, PowerShell, Python, Ansible basics |
-| **Web Technologies** | NGINX, Apache, WordPress, Docker, SSL/TLS |
-| **Monitoring** | Nagios, CloudWatch, Grafana, custom monitoring scripts |
-| **DevOps** | Terraform (IaC), GitHub Actions (CI/CD), Docker, Git |
-| **Services** | DNS (BIND9), DHCP, Active Directory, Exchange Server |
+| **Operating Systems** | Windows, Windows Server 2019/2022/2025, Linux (RHEL, CentOS/Rocky, Ubuntu, Raspberry Pi OS), macOS |
+| **Networking** | TCP/IP, LAN/WAN, VLANs, routing and switching (Cisco track), network security, firewalls, network monitoring, Wireshark, VPN, port forwarding, Cisco Packet Tracer |
+| **Cloud** | AWS (EC2, VPC), Azure |
+| **Virtualization** | VMware, VirtualBox, Hyper-V, Docker, Kubernetes |
+| **Systems Administration** | Active Directory, Group Policy, LDAP, DNS, DHCP, Microsoft 365 (Outlook, Teams, SharePoint, Exchange), MS Office |
+| **Automation & Scripting** | Python, bash, PowerShell, SQL, Git, APIs |
+| **Web & App** | Nginx, Apache, Node.js, FastAPI, React, React Native |
+| **E-Commerce & Marketing** | Shopify, Square POS, Google Ads, Google Merchant Center, social media marketing |
+| **Infrastructure & Support** | IT asset management, hardware troubleshooting, system imaging (Ghost), structured cabling, CCTV/access control, customer and technical support, IoT, load balancing, VoIP (familiar) |
 
 ---
 
 ## 🎓 Education
 
-**Computer Systems Technician - Networking**
-Algonquin College | Ottawa, ON | 2024 - Present
+**College Diploma, Computer Systems Technician (Networking)**
+Algonquin College | Ottawa, ON | May 2024 to December 2026 (expected), co-op track
+Dean's Honours List, 2025 Winter Term
 
 **Relevant Coursework**:
 - CST8371 - Enterprise Networking Fundamentals
@@ -181,10 +175,10 @@ I'm actively seeking **Junior System Administrator**, **Network Technician**, or
 
 ---
 
-## 🏆 Certifications & Clearances
+## 🏆 Clearance & Coursework
 
-- **Secret/Reliability Clearance** - Government of Canada
-- **CCNA Preparation** (In Progress)
+- **Government of Canada Reliability Clearance**
+- **CompTIA A+ and Network+ certification-track coursework** (Algonquin College / self-study, not yet certified)
 
 ---
 

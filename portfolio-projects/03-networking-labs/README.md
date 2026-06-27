@@ -91,7 +91,7 @@ I developed a systematic approach:
 
 ### Why This Matters
 
-At **OISO** (2023-2024), we had network connectivity issues between departments. Understanding VLANs and inter-VLAN routing helped me diagnose that the router wasn't configured properly for VLAN 20. Before this course, I wouldn't have known where to start.
+In a lab scenario simulating connectivity issues between departments, understanding VLANs and inter-VLAN routing helped me diagnose that the router wasn't configured properly for VLAN 20. Before this course, I wouldn't have known where to start.
 
 At **Kelesoglu IT** (2017-2019), we ran a flat network - everything in one broadcast domain. I didn't know any better at the time. Now I understand why that's a bad idea: broadcast storms, no traffic segmentation, and security risks. VLANs would have solved all of that.
 

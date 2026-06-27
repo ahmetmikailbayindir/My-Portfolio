@@ -145,7 +145,7 @@ Best practices to avoid recurrence
 
 ### Why This Course Was Critical
 
-At **OISO** (2023-2024), I dealt with support tickets daily. This course taught me to:
+Working through support scenarios in labs, this course taught me to:
 - **Document solutions properly** so I don't have to re-solve the same problem next week
 - **Use Event Viewer** to diagnose Windows BSODs instead of guessing
 - **Fix boot issues** without reinstalling the entire OS
@@ -163,7 +163,7 @@ At **Kelesoglu IT** (2017-2019), I learned hardware troubleshooting through tria
 4. **Random BSODs** → Event Viewer + error codes lead me straight to the driver or hardware causing crashes
 5. **Slow performance** → Task Manager + Performance Monitor show me exactly what's bottlenecking
 
-This isn't theory - these are issues I encountered at OISO, and now I have documented procedures for solving them.
+This isn't theory - these are issues I encountered in labs and coursework, and now I have documented procedures for solving them.
 
 ## 👤 About This Project
 
@@ -184,7 +184,7 @@ These aren't just guides I copied from the internet. I wrote them based on probl
 
 ### Why Documentation Matters
 
-At OISO, we didn't have good documentation. Every time someone encountered a problem, they'd ask around or Google it again. I wasted hours re-solving problems I'd already fixed before.
+In environments without good documentation, every time someone encounters a problem they ask around or Google it again. It is easy to waste hours re-solving problems that were already fixed before.
 
 Now I understand: **good documentation turns every problem you solve into knowledge the whole team can use**. That's why I structured these guides with clear symptoms, step-by-step solutions, verification steps, and prevention tips.
 

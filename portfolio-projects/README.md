@@ -15,35 +15,32 @@ This portfolio contains projects, lab work, and documentation I've created while
 **LinkedIn**: [linkedin.com/in/ahmetmikailbayindir](https://www.linkedin.com/in/ahmetmikailbayindir/)
 **GitHub**: [github.com/ahmetmikailbayindir](https://github.com/ahmetmikailbayindir)
 
-Hi! I'm Ahmet, a Computer Systems Technician - Networking student at Algonquin College with practical IT experience spanning help desk support, infrastructure management, and web systems administration.
+Hi! I'm Ahmet, a Computer Systems Technician (Networking) student at Algonquin College, Ottawa (diploma expected December 2026, co-op track), with practical IT experience spanning help desk support, networking, and web systems.
 
 ### My Background
 
 **Currently building:**
-- 🚀 **Founder & Builder** at ReliefSense (Jan 2025 - Present)
-  - **Problem:** Food security shouldn't depend on stable internet
-  - Built offline-first agriculture platform with sync capability for refugee camps, disaster relief zones, and low-connectivity communities
-  - Real-time dashboards for crop health, water usage, and resource planning with IoT sensor integration (temperature, humidity, CO₂)
-  - Runs on Raspberry Pi for affordable field deployment
-  - Multi-language support (English, Arabic, Turkish) with right-to-left (RTL) layout
-  - Tech Stack: React, Flask, SQLite, Vite, TailwindCSS
-  - **Live Demo (Public Showcase)**: [ahmetmikailbayindir.github.io/ReliefSense](https://ahmetmikailbayindir.github.io/ReliefSense/)
+- 🚀 **Founder & Director / Entrepreneurial Co-op Student** at CognaWorks Inc., Ottawa, ON (March 2026 - Present)
+  - Building software across data analytics, embedded systems, and mobile productivity
+  - A procurement-data analysis tool (Python, FastAPI, DuckDB, SQL, with a bounded AI integration)
+  - Control software for a Raspberry Pi 5 prototype on Linux (GPIO/I2C, automated fault handling, tests)
+  - A React Native mobile app with SQLite
 
 **Previous experience:**
-- **IT Support Specialist** at Ottawa Immigrant Services Organization (2023-2024)
-  - Supported multi-OS environments (Windows, macOS, Linux)
-  - Managed Active Directory and LDAP identity services
-  - Handled DNS administration and server management
+- **E-Commerce Web and Digital Marketing Contractor** at The Home Store, Ottawa, ON (May 2022 - January 2023)
+  - Built a Shopify storefront end to end with Square POS
+  - Handled hosting, domain, and integration work
+  - Ran Google Ads and Meta advertising, with Google Analytics, SEO, and Google Merchant Center
 
-- **E-Commerce Digital Marketing Manager** at The Home Store (2022-2023)
-  - Configured CDN performance rules in Akamai
-  - Managed DNS records and SSL configurations during site migrations
-  - Monitored backend performance and troubleshot bottlenecks
+- **Web Developer and Cloud Infrastructure** at Freelance / Self-employed, Remote (November 2020 - September 2021)
+  - AWS EC2 with Nginx and Apache reverse proxy, Docker on Ubuntu
+  - AWS VPC networking (subnets, NAT/internet gateways, route tables)
+  - A customized WordPress site (a science and technology news aggregator)
 
-- **Help Desk & Security Systems Technician** at Kelesoglu IT (2017-2019)
-  - Provided comprehensive IT support with 95% first-time resolution rate
-  - Set up and imaged corporate desktops/laptops
-  - Maintained LAN/WAN networks with 99% uptime
+- **Help Desk & Security Systems Technician** at Kelesoglu IT & Security Systems, Aksaray, Turkey (July 2017 - March 2019)
+  - PC and peripheral repair, imaging, and on-site customer support
+  - CCTV and access-control install, structured cabling
+  - LAN/WAN and IP-CCTV troubleshooting
 
 ### Why This Portfolio?
 
@@ -57,11 +54,11 @@ I'm currently formalizing my hands-on IT experience with academic training. This
 ### What Makes Me Different?
 
 Unlike typical students, I bring:
-- ✅ **Real-world troubleshooting experience** (resolved 100+ multi-OS issues)
-- ✅ **Infrastructure background** (DNS, CDN, server management)
-- ✅ **Cloud exposure** (AWS EC2, Docker, NGINX)
+- ✅ **Real-world troubleshooting experience** (multi-OS support, hardware, and networking)
+- ✅ **Infrastructure background** (DNS, server management, AWS EC2/VPC)
+- ✅ **Cloud exposure** (AWS EC2, Docker, Nginx)
 - ✅ **Documentation skills** (created SOPs and technical guides)
-- ✅ **Security clearance** (Secret/Reliability clearance)
+- ✅ **Government of Canada Reliability Clearance**
 
 **Career Goal**: Seeking Junior System Administrator or Network Technician roles where I can combine my practical IT experience with my formal networking education to maintain and improve infrastructure reliability.
 
@@ -92,7 +89,7 @@ Unlike typical students, I bring:
 - **Active Directory Setup**: I designed and deployed a complete AD infrastructure with proper OU structure, users, groups, and GPOs
 - **Exchange Server Configuration**: Set up an email server from scratch - learned how SMTP, POP3, and IMAP actually work
 - **DNS Administration**: Configured DNS zones and SPF records for email security
-- **PowerShell Automation**: My favorite project! Automates creating 50+ AD users from a CSV file in under 2 minutes
+- **PowerShell Automation**: My favorite project! Automates creating AD users in bulk from a CSV file
 
 **What I Learned**:
 - Windows Server administration is complex but logical once you understand the architecture
@@ -189,7 +186,7 @@ Unlike typical students, I bring:
 - Proactive monitoring prevents outages before users notice
 - Bash scripting at scale requires careful error handling
 - Alert fatigue is real - spent time tuning thresholds appropriately
-- This would have saved us at OISO when our file server ran out of disk space
+- Proactive monitoring catches disk, CPU, and memory problems before they cause outages
 
 ---
 
@@ -221,9 +218,9 @@ Unlike typical students, I bring:
 
 **What I Learned**:
 - Infrastructure as Code makes deployments reproducible
-- Docker multi-stage builds reduced image size by 70%
+- Docker multi-stage builds keep image size down
 - CI/CD automates deployments and reduces human error
-- This formalizes what I did at The Home Store with WordPress/AWS
+- This builds on my freelance work with WordPress on AWS EC2
 
 ---
 
@@ -257,9 +254,9 @@ Unlike typical students, I bring:
 
 **What I Learned**:
 - Python is the language of network automation
-- Threading makes port scanning 10x faster
+- Threading makes port scanning much faster
 - Automation eliminates error-prone manual tasks
-- These tools solve problems I faced at OISO and Kelesoglu
+- These tools solve the kind of problems I faced doing manual network work at Kelesoglu
 
 ---
 
@@ -303,7 +300,7 @@ Unlike typical students, I bring:
 
 | Skill Area | Projects | Key Achievements |
 |-----------|----------|------------------|
-| **Scripting** | 3 Bash projects, PowerShell automation | Automated 50+ user creation, built calculator with validation |
+| **Scripting** | 3 Bash projects, PowerShell automation | Automated bulk user creation, built calculator with validation |
 | **Networking** | 5 networking labs | Configured VLANs, implemented OSPF routing, designed subnets |
 | **Windows Admin** | AD + Exchange + DNS | Complete enterprise infrastructure setup |
 | **Troubleshooting** | 8+ comprehensive guides | Multi-OS support, hardware diagnostics, professional docs |
@@ -344,14 +341,14 @@ Through this portfolio, I demonstrate:
 ## 🚀 Featured Projects
 
 ### 🔥 PowerShell Bulk User Creation Script
-**Connects to my work experience**: At OISO, I managed Active Directory manually. This script automates what I used to do by hand.
+**Connects to my coursework**: In CST8342 (Windows Administration), I learned to manage Active Directory. This script automates account creation instead of doing it by hand.
 
 **What it does**:
-- Creates 50+ AD user accounts from CSV in under 2 minutes (vs 2 hours manually)
+- Creates AD user accounts in bulk from a CSV file
 - Validates input, checks for duplicates, verifies OUs exist
 - Provides detailed success/fail/skip reporting
 
-**Why I built it**: After manually creating dozens of AD accounts at work, I learned PowerShell automation in CST8342 and immediately saw how much time this could save IT teams.
+**Why I built it**: After creating AD accounts one at a time in the lab, I learned PowerShell automation in CST8342 and saw how much time this could save IT teams.
 
 ### 🔥 VLAN Configuration Lab
 **Connects to my background**: At Kelesoglu IT, I maintained LAN/WAN networks. This formalizes that knowledge with Cisco standards.
@@ -365,7 +362,7 @@ Through this portfolio, I demonstrate:
 **Why it matters**: Network segmentation is critical for security and performance in enterprise environments - skills I'm building toward my CCNA.
 
 ### 🔥 BSOD Troubleshooting Guide
-**Connects to my support experience**: With 95% first-time resolution at Kelesoglu and 100+ issues resolved at OISO, I've seen A LOT of BSODs.
+**Connects to my support experience**: From my help desk and repair work at Kelesoglu IT & Security Systems, I've seen a lot of BSODs.
 
 **What it contains**:
 - 12-step systematic troubleshooting process (based on real-world experience)
@@ -375,13 +372,13 @@ Through this portfolio, I demonstrate:
 
 **Why I documented it**: Good documentation is the difference between guessing and knowing. These are the steps I actually follow when troubleshooting Windows crashes.
 
-## 📈 Metrics & Achievements
+## 📈 Highlights
 
-- **Lines of Code**: 500+ across Bash and PowerShell scripts
-- **Network Devices Configured**: 20+ routers and switches (Packet Tracer)
-- **Documentation Pages**: 30+ professional how-to guides and process docs
-- **Lab Completion Rate**: 100% of course labs documented
-- **PowerShell Automation Efficiency**: 98% time reduction for bulk operations
+- **Scripting**: Bash and PowerShell scripts across multiple labs
+- **Networking**: routers and switches configured in Cisco Packet Tracer
+- **Documentation**: professional how-to guides and process docs
+- **Coursework**: course labs reconstructed and documented
+- **Automation**: PowerShell bulk user creation to replace repetitive manual work
 
 ## 🎓 Education & Certifications
 
@@ -462,9 +459,9 @@ Each project folder contains:
 
 ### What's Real:
 ✅ **My actual coursework**: All projects reflect labs and assignments from my CST program at Algonquin College
-✅ **My real experience**: The work history, troubleshooting scenarios, and technical context are 100% authentic
+✅ **My real experience**: The work history, troubleshooting scenarios, and technical context are authentic
 ✅ **My learning**: The "What I Learned" sections reflect genuine insights from my studies
-✅ **My ReliefSense project**: A complete full-stack application I actually built
+✅ **My CognaWorks work**: Software I am actually building (data analytics, a Raspberry Pi 5 prototype, and a React Native app)
 
 ### What's Reconstructed:
 🔄 **Code recreated from memory**: Since we delete course files each semester, I've rewritten example scripts based on what I learned

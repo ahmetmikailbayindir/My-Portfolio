@@ -241,7 +241,7 @@ interface GigabitEthernet1/0/24
 
 **At Kelesoglu IT** (2017-2019), I maintained existing networks but never designed one from scratch. I followed what was already there. This project proves I can design a complete network solution - not just maintain someone else's work.
 
-**At OISO** (2023-2024), we had network performance issues and poor Wi-Fi coverage. Understanding VLAN design, QoS, and proper AP placement would have helped me propose actual solutions instead of just reporting problems.
+In environments with network performance issues and poor Wi-Fi coverage, understanding VLAN design, QoS, and proper AP placement helps propose actual solutions instead of just reporting problems.
 
 This is the project **I wish I could have built at Kelesoglu IT** - proper segmentation, guest isolation, and QoS. Instead, we had a flat network with everything in one broadcast domain. Now I know how to do it right.
 
@@ -263,7 +263,6 @@ This design can be deployed for:
 
 This project builds on my real-world networking experience:
 - **At Kelesoglu IT**: I maintained networks but never designed from scratch - this fills that gap
-- **At OISO**: I troubleshot network issues but didn't have visibility into the architecture - now I understand the full picture
 - **In CST8371 & CST8378**: I learned the theory (VLANs, routing, QoS) - this applies it to a realistic scenario
 
 ## 🏷️ Skills Demonstrated
