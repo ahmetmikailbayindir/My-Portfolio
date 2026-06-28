@@ -109,7 +109,7 @@ Founder and technical lead building three products end to end:
 ## Awards and Honors
 
 - 3rd Place, Agency 2026 National AI Hackathon (Government of Alberta), 2026
-- Gold Medal Finalist, Cekmekoy International Science Olympiad, Istanbul, 2016
+- Finalist, Aziz Sancar International Science Olympiad, 2016
 
 ---
 

@@ -20,7 +20,7 @@ Hi! I'm Ahmet, a Computer Systems Technician (Networking) student at Algonquin C
 ### My Background
 
 **Currently building:**
-- 🚀 **Founder & Director / Entrepreneurial Co-op Student** at CognaWorks Inc., Ottawa, ON (March 2026 - Present)
+- 🚀 **Founder & Technical Lead** at CognaWorks Inc., Ottawa, ON (March 2026 to Present)
   - Building software across data analytics, embedded systems, and mobile productivity
   - A procurement-data analysis tool (Python, FastAPI, DuckDB, SQL, with a bounded AI integration)
   - Control software for a Raspberry Pi 5 prototype on Linux (GPIO/I2C, automated fault handling, tests)
