@@ -8,7 +8,7 @@
 
 ## Professional Summary
 
-Computer Systems Technician (Networking) student at Algonquin College, Ottawa, completing my diploma (expected December 2026, co-op track). I work technician-first across IT support, networking, and systems administration, with hands-on experience in Windows and Linux administration, LAN/WAN troubleshooting, structured cabling, and CCTV/access control. I also build software (Python, FastAPI, React Native) as a practical differentiator. I hold a Government of Canada Reliability Clearance.
+Computer Systems Technician (Networking) student at Algonquin College, Ottawa, completing my diploma (expected December 2026, co-op track). I work technician-first across IT support, networking, and systems administration, with hands-on experience in Windows and Linux administration, LAN/WAN troubleshooting, structured cabling, and CCTV/access control. I also build full-stack and data software (Python, FastAPI, React, React Native, scikit-learn) as a practical differentiator, including ReliefSense and Anchor at CognaWorks. I hold a Government of Canada Reliability Clearance.
 
 ---
 
@@ -25,16 +25,28 @@ Computer Systems Technician (Networking) student at Algonquin College, Ottawa, c
 
 ## Work Experience
 
-### Founder & Director / Entrepreneurial Co-op Student
+### Founder & Technical Lead
 **CognaWorks Inc.** | Ottawa, ON | March 2026 to Present
 
-Building software across data analytics, embedded systems, and mobile productivity:
-- Founded the company and lead its software work across data analytics, embedded systems, and mobile productivity
-- Built a procurement-data analysis tool in Python and FastAPI, querying with DuckDB and SQL
-- Added a bounded AI integration to the tool, scoped so its output stays constrained and reviewable
-- Wrote control software for a Raspberry Pi 5 prototype on Linux, driving hardware over GPIO and I2C
-- Built automated fault handling and a test suite into the embedded prototype
-- Developed a React Native mobile app backed by a local SQLite store
+Founder and technical lead building three products end to end:
+
+**ReliefSense** (flagship, since 2025): autonomous controlled-environment agriculture for humanitarian and off-grid settings.
+- Built the control and monitoring software on a Raspberry Pi (Python, React)
+- A simulation engine, a six-language operator dashboard with right-to-left support, and database and logging
+- Safety features: power-loss shutdown and first-run provisioning
+- Sensor and actuator bring-up over GPIO and I2C
+- Working prototype, not deployed
+
+**Anchor**: a full-stack government spending and procurement accountability platform, built solo in Python, FastAPI, DuckDB, and React.
+- An 8-dimension contractor reliability index with a Herfindahl-Hirschman concentration metric
+- Tiered-evidence fraud detectors and machine-learning anomaly scoring (scikit-learn IsolationForest, peer Z-score) with Splink entity resolution, over open Canadian contract and CRA charity data
+- An earlier version, built with a four-person team where I led the backend, placed 3rd at the Agency 2026 National AI Hackathon (Government of Alberta) among roughly 100 projects
+- Post-hackathon research prototype, not production
+
+**Daily planner for neurodivergent users** (React Native):
+- Schedule generation, medication and supplement reminders, escalating hyperfocus interrupts, and a graceful-degradation mode for hard days
+- On-device SQLite
+- Pre-launch
 
 ### E-Commerce Web and Digital Marketing Contractor
 **The Home Store** | Ottawa, ON | May 2022 to January 2023
@@ -80,7 +92,11 @@ Building software across data analytics, embedded systems, and mobile productivi
 
 **Web & Servers:** Nginx, Apache, Shopify, Square POS
 
-**Programming & Automation:** Python, bash, PowerShell, SQL, Git, APIs, Node.js, FastAPI, React, React Native, IoT
+**Programming & Automation:** Python, bash, PowerShell, SQL, Git, APIs, Node.js, FastAPI, full-stack development, React, React Native, IoT
+
+**Data & Machine Learning:** pandas, NumPy, scikit-learn, IsolationForest, networkx, DuckDB, Splink (entity resolution)
+
+**Frontend & Design:** React, Tailwind CSS, internationalization (i18n), right-to-left UIs, Government of Canada Design System (GCDS), user-centered design
 
 **Physical Infrastructure:** CCTV/access control, structured cabling
 
@@ -90,8 +106,9 @@ Building software across data analytics, embedded systems, and mobile productivi
 
 ---
 
-## Honors
+## Awards and Honors
 
+- 3rd Place, Agency 2026 National AI Hackathon (Government of Alberta), 2026
 - Gold Medal Finalist, Cekmekoy International Science Olympiad, Istanbul, 2016
 
 ---

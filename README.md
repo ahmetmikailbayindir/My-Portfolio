@@ -55,17 +55,16 @@ Professional resume detailing my:
 ## 🎯 About Me
 
 ### Current Focus
-- 🚀 **Founder & Director** - CognaWorks Inc. (March 2026 - Present)
+- 🚀 **Founder & Technical Lead** - CognaWorks Inc. (March 2026 to Present)
 - 🎓 **Student** - Computer Systems Technician (Networking) @ Algonquin College (expected December 2026, co-op track)
 - 📚 Learning: Advanced networking, security, cloud infrastructure, and automation
 
 ### Professional Experience
 
-**Founder & Director / Entrepreneurial Co-op Student** @ CognaWorks Inc., Ottawa, ON (March 2026 - Present)
-- Building software across data analytics, embedded systems, and mobile productivity
-- A procurement-data analysis tool (Python, FastAPI, DuckDB, SQL, with a bounded AI integration)
-- Control software for a Raspberry Pi 5 prototype on Linux (GPIO/I2C, automated fault handling, tests)
-- A React Native mobile app with SQLite
+**Founder & Technical Lead** @ CognaWorks Inc., Ottawa, ON (March 2026 to Present)
+- **ReliefSense** (flagship, since 2025): autonomous controlled-environment agriculture for humanitarian and off-grid settings. I built the control and monitoring software on a Raspberry Pi (Python, React): a simulation engine, a six-language operator dashboard with right-to-left support, database and logging, and safety features (power-loss shutdown, first-run provisioning), plus sensor and actuator bring-up over GPIO and I2C. Working prototype, not deployed.
+- **Anchor**: a full-stack government spending and procurement accountability platform, built solo in Python, FastAPI, DuckDB, and React. Engines include an 8-dimension contractor reliability index with a Herfindahl-Hirschman concentration metric, tiered-evidence fraud detectors, and machine-learning anomaly scoring (scikit-learn IsolationForest, peer Z-score) with Splink entity resolution, over open Canadian contract and CRA charity data. An earlier version, built with a four-person team where I led the backend, placed 3rd at the Agency 2026 National AI Hackathon (Government of Alberta) among roughly 100 projects. Post-hackathon research prototype, not production.
+- **Daily planner for neurodivergent users** (React Native): schedule generation, medication and supplement reminders, escalating hyperfocus interrupts, and a graceful-degradation mode for hard days, with on-device SQLite. Pre-launch.
 
 **E-Commerce Web and Digital Marketing Contractor** @ The Home Store, Ottawa, ON (May 2022 - January 2023)
 - Built a Shopify storefront end to end with Square POS
@@ -95,14 +94,14 @@ Professional resume detailing my:
 
 ## 🚀 Featured Projects
 
-### CognaWorks Inc. - Software Across Data, Embedded Systems, and Mobile 🛠️
-**Current Work (March 2026 - Present)** | **Tech Stack:** Python, FastAPI, DuckDB, SQL, Raspberry Pi 5, Linux, React Native, SQLite
+### CognaWorks Inc. - Three Products, End to End 🛠️
+**Current Work (March 2026 to Present)** | **Tech Stack:** Python, FastAPI, DuckDB, React, React Native, Raspberry Pi, scikit-learn, SQLite
 
-As Founder & Director (Entrepreneurial Co-op Student), I am building software across three areas:
+As Founder & Technical Lead, I build the software across three products:
 
-- **Procurement-data analysis tool**: Python, FastAPI, DuckDB, and SQL, with a bounded AI integration
-- **Raspberry Pi 5 control software**: a prototype on Linux using GPIO/I2C, with automated fault handling and tests
-- **Mobile productivity app**: React Native with SQLite
+- **ReliefSense** (flagship, since 2025): autonomous controlled-environment agriculture for humanitarian and off-grid settings. Control and monitoring software on a Raspberry Pi (Python, React): a simulation engine, a six-language operator dashboard with right-to-left support, database and logging, and safety features (power-loss shutdown, first-run provisioning), plus sensor and actuator bring-up over GPIO and I2C. Working prototype, not deployed.
+- **Anchor**: a full-stack government spending and procurement accountability platform, built solo in Python, FastAPI, DuckDB, and React. An 8-dimension contractor reliability index with a Herfindahl-Hirschman concentration metric, tiered-evidence fraud detectors, and machine-learning anomaly scoring (scikit-learn IsolationForest, peer Z-score) with Splink entity resolution, over open Canadian contract and CRA charity data. An earlier version, built with a four-person team where I led the backend, placed 3rd at the Agency 2026 National AI Hackathon (Government of Alberta) among roughly 100 projects. Post-hackathon research prototype, not production.
+- **Daily planner for neurodivergent users** (React Native): schedule generation, medication and supplement reminders, escalating hyperfocus interrupts, and a graceful-degradation mode for hard days, with on-device SQLite. Pre-launch.
 
 ---
 
@@ -138,7 +137,9 @@ Collection of network automation scripts: subnet calculator, port scanner, log a
 | **Virtualization** | VMware, VirtualBox, Hyper-V, Docker, Kubernetes |
 | **Systems Administration** | Active Directory, Group Policy, LDAP, DNS, DHCP, Microsoft 365 (Outlook, Teams, SharePoint, Exchange), MS Office |
 | **Automation & Scripting** | Python, bash, PowerShell, SQL, Git, APIs |
-| **Web & App** | Nginx, Apache, Node.js, FastAPI, React, React Native |
+| **Web & App** | Full-stack development, Nginx, Apache, Node.js, FastAPI, React, React Native |
+| **Data & Machine Learning** | pandas, NumPy, scikit-learn, IsolationForest, networkx, DuckDB, Splink (entity resolution) |
+| **Frontend & Design** | Tailwind CSS, internationalization (i18n), right-to-left UIs, Government of Canada Design System (GCDS), user-centered design |
 | **E-Commerce & Marketing** | Shopify, Square POS, Google Ads, Google Merchant Center, social media marketing |
 | **Infrastructure & Support** | IT asset management, hardware troubleshooting, system imaging (Ghost), structured cabling, CCTV/access control, customer and technical support, IoT, load balancing, VoIP (familiar) |
 
