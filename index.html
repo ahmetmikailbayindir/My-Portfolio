@@ -164,8 +164,9 @@
   .section { padding: clamp(2.6rem, 6vw, 4.4rem) 0; }
   .sec-head { display: flex; align-items: baseline; gap: 1rem; margin-bottom: 1.6rem; }
   .sec-head h2 { font-size: clamp(1.6rem, 4.5vw, 2.5rem); font-weight: 700; letter-spacing: -0.03em; }
-  .lead-2col { column-count: 2; column-gap: 2.2rem; font-size: 1.02rem; color: var(--ink-soft); }
-  .lead-2col p { margin-bottom: 0.9rem; break-inside: avoid; }
+  .lead-2col { column-count: 2; column-gap: 2.2rem; column-rule: 1px solid var(--line-soft); column-fill: balance; font-size: 1.02rem; color: var(--ink-soft); text-align: justify; hyphens: auto; }
+  .lead-2col p { margin: 0 0 0.9rem; }
+  .lead-2col p:first-child::first-letter { float: left; font-weight: 700; font-size: 3em; line-height: 0.72; padding: 0.05em 0.1em 0 0; color: var(--accent); }
   .lead-2col strong { color: var(--ink); }
   @media (max-width: 720px) { .lead-2col { column-count: 1; } }
 
