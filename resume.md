@@ -29,32 +29,42 @@ Computer Systems Technician (Networking) student at Algonquin College, Ottawa, c
 **CognaWorks Inc.** | Ottawa, ON | March 2026 to Present
 
 Building software across data analytics, embedded systems, and mobile productivity:
-- A procurement-data analysis tool (Python, FastAPI, DuckDB, SQL, with a bounded AI integration)
-- Control software for a Raspberry Pi 5 prototype on Linux (GPIO/I2C, automated fault handling, tests)
-- A React Native mobile app with SQLite
+- Founded the company and lead its software work across data analytics, embedded systems, and mobile productivity
+- Built a procurement-data analysis tool in Python and FastAPI, querying with DuckDB and SQL
+- Added a bounded AI integration to the tool, scoped so its output stays constrained and reviewable
+- Wrote control software for a Raspberry Pi 5 prototype on Linux, driving hardware over GPIO and I2C
+- Built automated fault handling and a test suite into the embedded prototype
+- Developed a React Native mobile app backed by a local SQLite store
 
 ### E-Commerce Web and Digital Marketing Contractor
 **The Home Store** | Ottawa, ON | May 2022 to January 2023
 
-- Built and ran a Shopify storefront end to end with Square POS
-- Handled hosting, domain, and integration work
-- Ran Google Ads and Meta advertising, with Google Analytics, SEO, Google Merchant Center, and Facebook and Instagram
+- Built a Shopify storefront end to end, from setup through to a live store
+- Integrated Square POS so in-store and online sales worked from one system
+- Set up hosting, domain, and third-party integrations
+- Ran paid advertising on Google Ads and on Meta (Facebook and Instagram)
+- Configured Google Analytics to track store and campaign performance
+- Worked on SEO and set up Google Merchant Center for product listings
 
 ### Web Developer and Cloud Infrastructure
 **Freelance / Self-employed** | Remote | November 2020 to September 2021
 
-- Stood up AWS EC2 with Nginx and an Apache reverse proxy, running Docker on Ubuntu
-- Configured AWS VPC networking (subnets, NAT/internet gateways, route tables)
-- Built a customized WordPress site (a science and technology news aggregator)
-- Used Google Analytics and Google Ads
+- Provisioned and ran AWS EC2 instances on Ubuntu
+- Configured Nginx and an Apache reverse proxy to serve and route traffic
+- Containerized services with Docker on Ubuntu
+- Built AWS VPC networking: subnets, NAT and internet gateways, and route tables
+- Designed and deployed a customized WordPress site (a science and technology news aggregator)
+- Set up Google Analytics and Google Ads for the site
 
 ### Help Desk & Security Systems Technician
 **Kelesoglu IT & Security Systems** | Aksaray, Turkey | July 2017 to March 2019
 
-- PC and peripheral repair, imaging, and on-site customer support
-- CCTV and access-control install
-- LAN/WAN and IP-CCTV troubleshooting
-- Structured cabling
+- Repaired and serviced PCs and peripherals, and imaged machines for deployment
+- Installed CCTV systems and access-control hardware
+- Ran structured cabling for network and camera runs
+- Troubleshot LAN and WAN connectivity issues
+- Diagnosed and resolved IP-CCTV camera and network problems
+- Provided on-site customer and technical support
 
 ---
 
